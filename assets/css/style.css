@@ -320,7 +320,8 @@ body {
   height: 650px; }
   @media only screen and (min-width: 1600px) {
     .main-image {
-      height: 700px; } }
+      height: 700px;
+      object-position: left; } }
   @media only screen and (max-width: 1550px) {
     .main-image {
       height: 500px;
