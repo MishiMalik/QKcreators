@@ -13,7 +13,10 @@ transition: all .5s;
     box-shadow: 0px 9px 14px #FF33818F;
     color: white !important;
 }
-
+@media only screen and (max-width: 500px) {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }
 
 

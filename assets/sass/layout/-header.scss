@@ -9,8 +9,8 @@
     background-color: white;
 
     @media only screen and (min-width:1600px){
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     
@@ -116,6 +116,6 @@
     &:focus{
       outline: none !important;
       box-shadow: none !important;
-      
+
     }
   }
