@@ -1,0 +1,12 @@
+@import url(/assets/fonts/GeneralSans_Complete/Fonts/WEB/css/general-sans.css);
+body{
+    margin: 0;
+    padding: 0;
+    // box-sizing: border-box;
+    // font-family: 'false', sans-serif;
+    padding-top: 88px;
+    font-family: 'GeneralSans-Variable';
+    @media only screen and (min-width:1600px){
+        padding-top: 138px;
+    }
+}

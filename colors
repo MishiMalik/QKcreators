@@ -1,0 +1,91 @@
+
+**Requests:**
+1. Request Not sent - Color: *Light Gray (#D3D3D3)*
+   - Lighter Shade: *Lighter Gray (#EAEAEA)*
+   - Darker Shade: *Darker Gray (#B0B0B0)*
+   - Darkest Shade: *Charcoal Gray (#808080)*
+
+2. Request sent (pending) - Color: *Sky Blue (#87CEEB)*
+   - Lighter Shade: *Light Sky Blue (#B0E2FF)*
+   - Darker Shade: *Cornflower Blue (#6495ED)*
+   - Darkest Shade: *Royal Blue (#4169E1)*
+
+3. Request Paused - Color: *Light Orange (#FFD700)*
+   - Lighter Shade: *Peach (#FFDAB9)*
+   - Darker Shade: *Dark Goldenrod (#B8860B)*
+   - Darkest Shade: *Goldenrod (#DAA520)*
+
+4. Request accepted - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+5. Request Rejected - Color: *Light Coral (#FF6B6B)*
+   - Lighter Shade: *Salmon (#FA8072)*
+   - Darker Shade: *Indian Red (#CD5C5C)*
+   - Darkest Shade: *Firebrick (#B22222)*
+
+**Quote:**
+1. Quote Sent - Color: *Sky Blue (#87CEEB)*
+   - Lighter Shade: *Light Sky Blue (#B0E2FF)*
+   - Darker Shade: *Cornflower Blue (#6495ED)*
+   - Darkest Shade: *Royal Blue (#4169E1)*
+
+2. Quote approved - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+3. Quote rejected - Color: *Light Coral (#FF6B6B)*
+   - Lighter Shade: *Salmon (#FA8072)*
+   - Darker Shade: *Indian Red (#CD5C5C)*
+   - Darkest Shade: *Firebrick (#B22222)*
+
+**Jobs:**
+1. Job Started - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+2. Job In progress - Color: *Sky Blue (#87CEEB)*
+   - Lighter Shade: *Light Sky Blue (#B0E2FF)*
+   - Darker Shade: *Cornflower Blue (#6495ED)*
+   - Darkest Shade: *Royal Blue (#4169E1)*
+
+3. Job paused - Color: *Light Orange (#FFD700)*
+   - Lighter Shade: *Peach (#FFDAB9)*
+   - Darker Shade: *Dark Goldenrod (#B8860B)*
+   - Darkest Shade: *Goldenrod (#DAA520)*
+
+4. Job Canceled - Color: *Light Coral (#FF6B6B)*
+   - Lighter Shade: *Salmon (#FA8072)*
+   - Darker Shade: *Indian Red (#CD5C5C)*
+   - Darkest Shade: *Firebrick (#B22222)*
+
+5. Job in revision - Color: *Light Purple (#C9A0DC)*
+   - Lighter Shade: *Lavender (#E6E6FA)*
+   - Darker Shade: *Medium Purple (#9370DB)*
+   - Darkest Shade: *Dark Purple (#6A5ACD)*
+
+6. Job Update - Color: *Sky Blue (#87CEEB)*
+   - Lighter Shade: *Light Sky Blue (#B0E2FF)*
+   - Darker Shade: *Cornflower Blue (#6495ED)*
+   - Darkest Shade: *Royal Blue (#4169E1)*
+
+7. Job submit - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+8. Job approved - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+9. Client make final payment - Color: *Lime Green (#32CD32)*
+   - Lighter Shade: *Medium Sea Green (#3CB371)*
+   - Darker Shade: *Forest Green (#228B22)*
+   - Darkest Shade: *Dark Green (#006400)*
+
+Feel free to use these color variations to visually distinguish between different statuses in your project management system.
+

@@ -1,0 +1,11 @@
+.no-decoration{
+    text-decoration: none;
+}
+.container{
+    @media only screen and (min-width:1300px){
+        max-width: 90%;
+    }
+    @media only screen and (min-width:1920px){
+        max-width: 85%;
+    }
+}
