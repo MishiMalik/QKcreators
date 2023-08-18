@@ -1,10 +1,25 @@
 // Fonts sizes clases
+.f-45{
+    font-size: 45px;
+  }
 .f-40 {
   font-size: 40px;
 }
 .f-30 {
   font-size: 30px;
 }
+.f-35 {
+    font-size: 35px;
+    @media only screen and (min-width: 1600px) {
+        font-size: 45px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 20px;
+      }
+  }
 .f-32 {
   font-size: 30px;
 }
@@ -16,7 +31,7 @@
   font-size: 22px;
 }
 .f-20 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   @media only screen and (min-width: 1600px) {
     font-size: 25px;
@@ -60,7 +75,9 @@
 .w-800 {
   font-weight: 800;
 }
-
+.text-blue{
+    color: #221D42 !important;
+}
 // ==========================headings
 .heading-primary {
   font-size: 45px;

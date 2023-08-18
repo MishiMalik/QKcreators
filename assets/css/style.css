@@ -8,11 +8,26 @@ body {
     body {
       padding-top: 115px; } }
 
+.f-45 {
+  font-size: 45px; }
+
 .f-40 {
   font-size: 40px; }
 
 .f-30 {
   font-size: 30px; }
+
+.f-35 {
+  font-size: 35px; }
+  @media only screen and (min-width: 1600px) {
+    .f-35 {
+      font-size: 45px; } }
+  @media only screen and (max-width: 768px) {
+    .f-35 {
+      font-size: 30px; } }
+  @media only screen and (max-width: 500px) {
+    .f-35 {
+      font-size: 20px; } }
 
 .f-32 {
   font-size: 30px; }
@@ -25,7 +40,7 @@ body {
   font-size: 22px; }
 
 .f-20 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px; }
   @media only screen and (min-width: 1600px) {
     .f-20 {
@@ -65,6 +80,9 @@ body {
 
 .w-800 {
   font-weight: 800; }
+
+.text-blue {
+  color: #221D42 !important; }
 
 .heading-primary {
   font-size: 45px;
@@ -109,9 +127,9 @@ body {
   color: white !important;
   text-decoration: none;
   box-shadow: none;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .nav-btn:hover {
-    box-shadow: 0px 9px 14px #FF33818F;
+    box-shadow: 0px 9px 14px #ff33818f;
     color: white !important; }
   @media only screen and (max-width: 500px) {
     .nav-btn {
@@ -129,9 +147,9 @@ body {
   text-decoration: none;
   border: 2px solid #FF3381;
   box-shadow: none;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .fill-btn:hover {
-    box-shadow: 0px 9px 14px #FF33818F;
+    box-shadow: 0px 9px 14px #ff33818f;
     color: white !important; }
   @media only screen and (min-width: 1600px) {
     .fill-btn {
@@ -149,15 +167,15 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
-  border: 2px solid #221D42;
+  border: 2px solid #221d42;
   text-decoration: none;
   box-shadow: none;
-  transition: all .5s;
+  transition: all 0.5s;
   color: #000000; }
   .blank-btn:hover {
     color: white !important;
-    background-color: #221D42;
-    border: 2px solid #221D42; }
+    background-color: #221d42;
+    border: 2px solid #221d42; }
   @media only screen and (min-width: 1600px) {
     .blank-btn {
       font-size: 20px;
@@ -167,6 +185,16 @@ body {
       padding: 10px 20px;
       font-size: 16px; } }
 
+.get-started-btn {
+  width: 200px;
+  padding: 2px;
+  border-radius: 50px;
+  height: 44px;
+  position: relative;
+  transition: all .7s; }
+  .get-started-btn:hover {
+    background-color: rgba(255, 51, 129, 0.6) !important; }
+
 .btn-arrow {
   height: 40px;
   width: 40px;
@@ -174,15 +202,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FF3381; }
+  background-color: #FF3381;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  transition: all .7s; }
   .btn-arrow i {
     color: white !important;
     line-height: 0px; }
-  @media only screen and (min-width: 1600px) {
-    .btn-arrow {
-      height: 50px;
-      width: 50px;
-      border-radius: 100%; } }
+
+.get-started-btn:hover .btn-arrow {
+  left: 160px; }
+
+.arrow-text {
+  margin-left: 50px;
+  transition: all .7s;
+  color: black; }
+
+.get-started-btn:hover .arrow-text {
+  margin-left: 10px;
+  color: white !important;
+  font-weight: 500; }
 
 .fill-btn-white {
   padding: 14px 30px;
@@ -191,13 +231,13 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 600;
-  color: #221D42  !important;
+  color: #221d42 !important;
   text-decoration: none;
   border: 2px solid #FF3381;
   box-shadow: none;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .fill-btn-white:hover {
-    background-color: #221D42;
+    background-color: #221d42;
     color: white !important; }
   @media only screen and (min-width: 1600px) {
     .fill-btn-white {
@@ -367,47 +407,71 @@ body {
       padding: 20px 0px; } }
 
 .services {
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #fff3f8; }
-  .services .service__card-img {
-    height: 100px;
-    width: 100%;
-    display: flex; }
-    .services .service__card-img img {
-      height: 100%;
-      width: auto; }
-  .services .service__card-heading {
-    font-size: 22px;
-    font-weight: 600;
-    color: black; }
-    @media only screen and (min-width: 1600px) {
-      .services .service__card-heading {
-        font-size: 32px; } }
-  .services .service__card-text {
-    font-size: 16px;
-    font-weight: 400; }
-    @media only screen and (min-width: 1600px) {
-      .services .service__card-text {
-        font-size: 24px; } }
-  .services .service__card-btn {
-    text-decoration: none; }
-    .services .service__card-btn img {
-      height: 40px;
-      width: 40px;
-      border-radius: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      @media only screen and (min-width: 1600px) {
-        .services .service__card-btn img {
-          height: 50px;
-          width: 50px;
-          border-radius: 100%; } }
-    .services .service__card-btn p {
+  @media only screen and (min-width: 1600px) {
+    .services {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .services {
+      padding: 60px 0px; } }
+  .services .service__card {
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: none;
+    background-color: transparent;
+    transition: all 0.5s; }
+    @media only screen and (max-width: 768px) {
+      .services .service__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; } }
+    .services .service__card-img {
+      height: 100px;
+      width: 100%;
+      display: flex; }
+      .services .service__card-img img {
+        height: 100%;
+        width: auto; }
+    .services .service__card-heading {
       font-size: 20px;
       font-weight: 600;
-      text-decoration: none;
       color: black; }
+      @media only screen and (min-width: 1600px) {
+        .services .service__card-heading {
+          font-size: 30px; } }
+    .services .service__card-text {
+      font-size: 16px;
+      font-weight: 400; }
+      @media only screen and (min-width: 1600px) {
+        .services .service__card-text {
+          font-size: 24px; } }
+    .services .service__card-btn {
+      text-decoration: none; }
+      .services .service__card-btn img {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media only screen and (min-width: 1600px) {
+          .services .service__card-btn img {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%; } }
+      .services .service__card-btn p {
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        margin-top: 1px; }
+        @media only screen and (min-width: 1600px) {
+          .services .service__card-btn p {
+            font-size: 22px;
+            line-height: 20px; } }
 
 .procedure {
   padding-top: 100px !important; }
@@ -427,26 +491,15 @@ body {
       @media only screen and (min-width: 1600px) {
         .procedure .procedure__card-number {
           font-size: 64px; } }
-    .procedure .procedure__card-heading {
-      font-size: 18px;
-      font-weight: 600;
-      color: #000000;
-      text-align: center;
-      margin-top: 20px; }
-      @media only screen and (min-width: 1600px) {
-        .procedure .procedure__card-heading {
-          font-size: 24px; } }
-    .procedure .procedure__card-text {
-      color: #8f8f8f;
-      font-size: 14px;
-      font-weight: 400;
-      text-align: center; }
-      @media only screen and (min-width: 1600px) {
-        .procedure .procedure__card-text {
-          font-size: 18px; } }
 
 .procedure-details {
-  padding: 100px 0px 80px 0px !important; }
+  padding: 80px 0px 60px 0px !important; }
+  @media only screen and (min-width: 1600px) {
+    .procedure-details {
+      padding: 100px 0px 80px 0px !important; } }
+  @media only screen and (max-width: 768px) {
+    .procedure-details {
+      padding: 60px 0px 40px 0px !important; } }
   .procedure-details-heading {
     font-size: 35px;
     font-weight: 600;
@@ -473,9 +526,18 @@ body {
     .caption-tag {
       font-size: 20px;
       letter-spacing: 6px; } }
+  @media only screen and (max-width: 768px) {
+    .caption-tag {
+      font-size: 16px; } }
 
 .qualties {
-  padding: 100px 0px; }
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1600px) {
+    .qualties {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .qualties {
+      padding: 60px 0px; } }
   .qualties__card {
     display: flex;
     flex-direction: column;
@@ -519,11 +581,18 @@ body {
           font-weight: 400; } }
 
 .graphic-process {
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #221d42; }
+  @media only screen and (min-width: 1600px) {
+    .graphic-process {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .graphic-process {
+      padding: 60px 0px; } }
   .graphic-process__card {
+    border: 3px solid white;
     background-color: white;
-    padding: 30px 20px;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -536,17 +605,22 @@ body {
       color: #FF3381; }
       @media only screen and (min-width: 1600px) {
         .graphic-process__card-number {
-          font-size: 74px;
+          font-size: 70px;
           font-weight: 600;
           color: #FF3381; } }
     .graphic-process__card-heading {
       color: #221d42;
       font-size: 22px;
-      font-weight: 600; }
+      font-weight: 600;
+      min-height: 50px; }
       @media only screen and (min-width: 1600px) {
         .graphic-process__card-heading {
           font-size: 27px;
-          font-weight: 600; } }
+          font-weight: 600;
+          min-height: 60px; } }
+      @media only screen and (max-width: 991px) {
+        .graphic-process__card-heading {
+          min-height: fit-content; } }
     .graphic-process__card-text {
       color: #8f8f8f;
       font-weight: 400;
@@ -555,15 +629,27 @@ body {
         .graphic-process__card-text {
           font-size: 20px; } }
 
+.graphic-process__card-link {
+  border: 3px solid #FF3381 !important;
+  transition: all .5s; }
+  .graphic-process__card-link:hover {
+    border: 3px solid white !important;
+    box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px; }
+
 .active-btn {
   text-decoration: none; }
   .active-btn .graphic-process__card {
     background-color: #FF3381; }
 
 .join-us {
-  background-color: #FF3381; }
+  background-color: #FF3381;
+  margin-top: 250px; }
+  @media only screen and (max-width: 767px) {
+    .join-us {
+      margin-top: 0px; } }
   .join-us .join-us-text {
-    padding: 50px 0px; }
+    padding-top: 50px;
+    padding-bottom: 50px; }
   .join-us .join-img {
     position: relative;
     height: 100%; }
@@ -610,3 +696,7 @@ body {
   .owl-item {
     display: flex !important;
     justify-content: center !important; } }
+
+@media only screen and (max-width: 1768px) {
+  .no-br br {
+    display: none !important; } }

@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
     integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -68,13 +71,15 @@
                     A Leader in Web & <br>Mobile App Development.<br>
                     <div></div> <span>Your Digital Partner.</span>
                   </h1>
-                  <p class="f-20 mt-3 w-400  text-sm-start text-center py-lg-2">We are a team of passionate developers and
+                  <p class="f-20 mt-3 w-400  text-sm-start text-center py-lg-2">We are a team of passionate developers
+                    and
                     designers dedicated to <br> delivering
                     top-notch web and mobile solutions the empower your <br> business.</p>
 
 
                   <div
-                    class="d-flex align-items-center justify-content-sm-start justify-content-center hero-btns mt-4 pt-2">
+                    class="d-flex align-items-center justify-content-sm-start justify-content-center hero-btns mt-4 pt-2"
+                    data-aos="fade-up">
                     <div class="me-3">
                       <a class="fill-btn" href="#">Get started</a>
                     </div>
@@ -117,36 +122,44 @@
       </div>
     </section>
 
-    <!-- <section class="services">
+
+    <!-- services -->
+    <section class="services">
       <div class="container">
         <div class="row">
-          <div class="col-lg-10 mx-auto mb-5 pb-5">
-            <h1 class="f-42 w-600 text-dark text-center">
-              Lorem Ipsum is simply<br> dummy text of the printing.
+          <div class="col-lg-10  col-md-12 text-center mx-auto">
+            <h1 class="f-35 w-600 text-blue  text-center ">
+              Lorem Ipsum is simply dummy text of the printing.
             </h1>
+
+          </div>
+          <div class="col-lg-10 col-xl-7 col-md-12 mx-auto mb-xl-4 mb-2 pb-4">
             <p class="f-20 w-400 text-center mt-3">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
               a galley of type and scrambled it to make a type specimen book.
             </p>
           </div>
-          <div class="col-lg-4">
+
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-lg-0 ">
             <div class="service__card">
               <div class="service-card-img">
-                <img src="assets/images/services (3).svg" alt="">
+                <img src="assets/images/services (3).svg" alt="" data-aos="fade-left" data-aos-duration='800'>
               </div>
-              <h1 class="service__card-heading mb-3 mt-4 pt-2">
+              <h1 class="service__card-heading mb-lg-3 mb-2 mt-4">
                 Web Development
               </h1>
-              <p class="service__card-text mb-4">
+              <p class="service__card-text mb-lg-4 mb-2">
                 From responsive websites to robust web applications, we create online experiences that captivate and
                 engage your audience.
               </p>
               <a href="" class="service__card-btn">
-                <div class="d-flex align-items-center pt-3">
+                <div class="d-flex align-items-center mt-lg-3 mt-2 get-started-btn">
                   <div class="btn-arrow">
                     <i class="bi bi-arrow-right"></i>
                   </div>
-                  <p class=" text-dark mb-0 pb-0 ms-3">
+                  <p class="text-dark mb-0 pb-0 arrow-text">
                     Get started
                   </p>
                 </div>
@@ -154,24 +167,24 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-4 mb-lg-0 my-lg-0 my-5" >
             <div class="service__card">
               <div class="service-card-img">
-                <img src="assets/images/services (2).svg" alt="">
+                <img src="assets/images/services (2).svg" alt="" data-aos="fade-left" data-aos-duration='1600'>
               </div>
-              <h1 class="service__card-heading mb-3 mt-4 pt-2">
+              <h1 class="service__card-heading mb-lg-3 mb-2 mt-4">
                 Web Development
               </h1>
-              <p class="service__card-text mb-4">
+              <p class="service__card-text mb-lg-4 mb-2">
                 From responsive websites to robust web applications, we create online experiences that captivate and
                 engage your audience.
               </p>
-              <a href="" class="service__card-btn">
-                <div class="d-flex align-items-center pt-3">
+              <a href="" class="service__card-btn ">
+                <div class="d-flex align-items-center mt-lg-3 mt-2 get-started-btn">
                   <div class="btn-arrow">
                     <i class="bi bi-arrow-right"></i>
                   </div>
-                  <p class=" text-dark mb-0 pb-0 ms-3">
+                  <p class="text-dark mb-0 pb-0 arrow-text">
                     Get started
                   </p>
                 </div>
@@ -179,24 +192,24 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="service__card">
+          <div class="col-lg-4 mb-lg-0 mb-0">
+            <div class="service__card mb-0">
               <div class="service-card-img">
-                <img src="assets/images/services (1).svg" alt="">
+                <img src="assets/images/services (1).svg" alt="" data-aos="fade-left" data-aos-duration='2400'>
               </div>
-              <h1 class="service__card-heading mb-3 mt-4 pt-2">
+              <h1 class="service__card-heading mb-lg-3 mb-2 mt-4">
                 Web Development
               </h1>
-              <p class="service__card-text mb-4">
+              <p class="service__card-text mb-lg-4 mb-2">
                 From responsive websites to robust web applications, we create online experiences that captivate and
                 engage your audience.
               </p>
-              <a href="" class="service__card-btn">
-                <div class="d-flex align-items-center pt-3">
+              <a href="" class="service__card-btn ">
+                <div class="d-flex align-items-center mt-lg-3 mt-2 get-started-btn">
                   <div class="btn-arrow">
                     <i class="bi bi-arrow-right"></i>
                   </div>
-                  <p class=" text-dark mb-0 pb-0 ms-3">
+                  <p class="text-dark mb-0 pb-0 arrow-text">
                     Get started
                   </p>
                 </div>
@@ -205,7 +218,8 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
 
     <!-- <section class="procedure">
       <div class="container">
@@ -300,22 +314,24 @@
       </div>
     </section> -->
 
-    <!-- <section class="procedure-details">
+    
+<!-- services detail -->
+    <section class="procedure-details">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <img src="assets/images/Mask Group 23.png" alt="" class="img-fluid">
           </div>
-          <div class="col-lg-6 ps-lg-5">
-            <h1 class="procedure-heading">
+          <div class="col-lg-6 ps-lg-5 mt-lg-0 mt-4">
+            <h1 class="f-35 w-600 text-blue text-sm-start text-center">
               How we can create stunning and high quality websites?
             </h1>
-            <p class="procedure-text mt-3">
+            <p class="f-20 mt-lg-4 mt-3 w-400  text-sm-start text-center ">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
               a galley of type and scrambled it to make a type specimen book.
             </p>
 
-            <div class="mt-5">
+            <div class="mt-lg-5 mt-4 d-flex justify-content-sm-start justify-content-center" data-aos="fade-up">
               <a href="" class="fill-btn ">Explore web development</a>
             </div>
           </div>
@@ -325,9 +341,9 @@
         </div>
       </div>
 
-    </section> -->
+    </section>
 
-    <!-- <div class="container">
+ <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="col-lg-12">
@@ -335,107 +351,107 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <section class="qualties">
+   <section class="qualties">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-10 mx-auto mb-5 ">
-            <p class="caption-tag">MOBILE DEVELOPMENT PROCESS</p>
-            <h1 class="f-42 w-600 text-dark text-center">
+            <p class="caption-tag" data-aos="fade-up">MOBILE DEVELOPMENT PROCESS</p>
+            <h1 class="f-35 w-600 text-blue  text-center">
               How we craft exceptional and top-tier<br> mobile applications with remarkable quality?
             </h1>
-            <p class="f-20 w-400 text-center mt-3">
+            <p class="f-20 mt-lg-4 mt-3 w-400   text-center">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
               a galley of type and scrambled it to make a type specimen book.
             </p>
           </div>
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #0F1835;">
+              <h1 class="qualties__card-number" style="background-color: #0F1835;"  data-aos="zoom-in" data-aos-duration='400'>
                 01
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Conceptualization
               </h2>
-              <p class="qualties__card-text">Product Manager</p>
+              <p class="qualties__card-text text-center">Product Manager</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #FFD02F;">
+              <h1 class="qualties__card-number" style="background-color: #FFD02F;" data-aos="zoom-in" data-aos-duration='600'>
                 02
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Design
               </h2>
-              <p class="qualties__card-text">Mobile UI/UX Design</p>
+              <p class="qualties__card-text text-center">Mobile UI/UX Design</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #00BE93;">
+              <h1 class="qualties__card-number" style="background-color: #00BE93;" data-aos="zoom-in" data-aos-duration='800'>
                 03
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Development
               </h2>
-              <p class="qualties__card-text">iOS, Android, Flutter Developer</p>
+              <p class="qualties__card-text text-center">iOS, Android, Flutter Developer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #FF3381;">
+              <h1 class="qualties__card-number" style="background-color: #FF3381;" data-aos="zoom-in" data-aos-duration='1000'>
                 04
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Testing
               </h2>
-              <p class="qualties__card-text">Quality Assurance Tester</p>
+              <p class="qualties__card-text text-center">Quality Assurance Tester</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #A15DDC;">
+              <h1 class="qualties__card-number" style="background-color: #A15DDC;" data-aos="zoom-in" data-aos-duration='1200'>
                 05
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Integration & Deployment
               </h2>
-              <p class="qualties__card-text">Back-End Developer & DevOps Engineer</p>
+              <p class="qualties__card-text text-center">Back-End Developer & DevOps Engineer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-5">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #579CFB;">
+              <h1 class="qualties__card-number" style="background-color: #579CFB;" data-aos="zoom-in" data-aos-duration='1400'>
                 06
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Testing & Launch
               </h2>
-              <p class="qualties__card-text">QA Tester, Product Manager</p>
+              <p class="qualties__card-text text-center">QA Tester, Product Manager</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-5">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-lg-6 mb-0">
             <div class="qualties__card">
-              <h1 class="qualties__card-number" style="background-color: #FCAB3C;">
+              <h1 class="qualties__card-number" style="background-color: #FCAB3C;" data-aos="zoom-in" data-aos-duration='1600'>
                 07
               </h1>
-              <h2 class="qualties__card-heading mt-3">
+              <h2 class="qualties__card-heading text-center mt-3">
                 Maintenance and Updates
               </h2>
-              <p class="qualties__card-text">Mobile application developer</p>
+              <p class="qualties__card-text text-center">Mobile application developer</p>
             </div>
           </div>
 
           <div class="col-lg-12 d-flex justify-content-center">
-            <div class="mt-5">
+            <div class="mt-5" data-aos="fade-up" >
               <a href="" class="fill-btn ">Explore mobile development</a>
             </div>
           </div>
@@ -443,58 +459,58 @@
 
         </div>
       </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="graphic-process">
+   <section class="graphic-process ">
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-lg-10 mb-5">
-            <p class="caption-tag text-start">MOBILE DEVELOPMENT PROCESS</p>
-            <h1 class="f-42 w-600 text-dark text-white">
+            <p class="caption-tag text-start text-sm-start text-center" data-aos="fade-up">MOBILE DEVELOPMENT PROCESS</p>
+            <h1 class="f-35 w-600 text-sm-start text-center text-white no-br">
               How we craft exceptional and top-tier<br> mobile applications with remarkable quality?
             </h1>
-            <p class="f-20 w-400  mt-3 text-white mb-5">
+            <p class="f-20 mt-lg-4 mt-3 w-400 text-white  mb-4">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
               a galley of type and scrambled it to make a type specimen book.
             </p>
           </div>
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
-                06
+                01
               </h1>
               <h2 class="graphic-process__card-heading text-center">
-                Requirement Gathering
+                Requirement <br> Gathering
               </h2>
               <p class="graphic-process__card-text">Graphic Designer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 02
               </h1>
               <h2 class="graphic-process__card-heading text-center">
-                Conceptualization and Ideation
+                Conceptualization <br> and Ideation
               </h2>
               <p class="graphic-process__card-text">Graphic Designer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 03
               </h1>
               <h2 class="graphic-process__card-heading text-center">
-                Design Creation
+                Design<br>Creation
               </h2>
               <p class="graphic-process__card-text">Graphic Designer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 04
@@ -506,7 +522,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 05
@@ -518,7 +534,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 06
@@ -530,40 +546,41 @@
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <div class="graphic-process__card">
               <h1 class="graphic-process__card-number mb-3 pb-0">
                 07
               </h1>
               <h2 class="graphic-process__card-heading text-center">
-                Usage and Monitoring
+                Usage and<br>Monitoring
               </h2>
               <p class="graphic-process__card-text">Graphic Designer</p>
             </div>
           </div>
 
-          <div class="col-lg-3 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <a href="" class="active-btn">
-              <div class="graphic-process__card">
+              <div class="graphic-process__card graphic-process__card-link">
                 <h2 class="graphic-process__card-heading text-center text-white">
                   Explore<br> Graphic Design
                 </h2>
-                <div class="btn-arrow mt-3" style="background-color:#221D42">
+                <div class="btn-arrow mt-3" data-aos="zoom-in" style="background-color:#221D42 !important; position: relative !important;">
                   <i class="bi bi-arrow-right text-white"></i>
                 </div>
+                
               </div>
             </a>
           </div>
 
         </div>
       </div>
-    </section> -->
+    </section> 
 
-    <!-- <section class="join-us">
+    <section class="join-us  ">
       <div class="container">
         <div class="row align-items-stretch">
           <div class="col-lg-6 join-us-text">
-            <h1 class="f-32 w-400 text-dark text-white">
+            <h1 class="f-32 w-400 text-dark text-white no-br" style="font-style: italic;">
               We invite you to join us <br> <span class="w-600">on this exciting journey of innovation and
                 creativity.</span>
             </h1>
@@ -571,22 +588,22 @@
               <a href="" class="fill-btn-white ">Explore web development</a>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="join-img">
-              <img src="assets/images/Mask Group 36.png" alt="" class="img-fluid">
+          <div class="col-lg-6 ">
+            <div class="join-img d-sm-block d-none">
+              <img src="assets/images/Mask Group 36.png" alt="" class="img-fluid d-lg-block d-none">
             </div>
           </div>
 
         </div>
       </div>
-    </section> -->
+    </section>
 
 
 
 
   </main>
 
-  <!-- <footer class="footer">
+<!-- <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-3">
@@ -631,9 +648,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- app js -->
   <script src="assets/Js/app.js"></script>
-
+  <script>
+    /**
+   * Animation on scroll
+   */
+    //   window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+//   });
+  </script>
 </body>
 
 </html>

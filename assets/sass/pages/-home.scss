@@ -6,7 +6,7 @@
   height: 650px;
   @media only screen and (min-width: 1600px) {
     height: 700px;
-    object-position:left;
+    object-position: left;
   }
   @media only screen and (max-width: 1550px) {
     height: 500px;
@@ -14,7 +14,7 @@
   }
   @media only screen and (max-width: 500px) {
     height: calc(100vh - 88px);
-  object-position: right;
+    object-position: right;
   }
 }
 .main-section {
@@ -28,24 +28,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     // @media only screen and (max-width:1550px){
     //   height: 600px;
     // }
     @media only screen and (max-width: 1200px) {
-      background: linear-gradient( to right,
-      rgba(255, 255, 255,1),
-      rgba(255, 255, 255, 0.459)
-    );
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0.459)
+      );
     }
     @media only screen and (max-width: 500px) {
       height: calc(100vh - 88px);
     }
     @media only screen and (max-width: 600px) {
-      background: linear-gradient( to bottom,
-      rgba(255, 255, 255,.8),
-      rgba(255, 255, 255, 0.459)
-    );
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.459)
+      );
     }
   }
   // .main-content-text{
@@ -59,21 +61,42 @@
   .logo-images img {
     height: 52px;
     width: auto !important;
-    @media only screen and (min-width:1600px){
+    @media only screen and (min-width: 1600px) {
       height: 62px;
       width: auto !important;
     }
   }
-  @media only screen and (min-width:1600px){
+  @media only screen and (min-width: 1600px) {
     padding: 20px 0px;
   }
 }
 
 .services {
-  padding: 100px 0px;
+  padding: 80px 0px;
   background-color: #fff3f8;
+  @media only screen and (min-width: 1600px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 0px;
+  }
 
   .service__card {
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: none;
+    background-color: transparent;
+    transition: all 0.5s;
+
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      // margin-bottom: 50px;
+    }
+
     &-img {
       height: 100px;
       width: 100%;
@@ -85,11 +108,11 @@
       }
     }
     &-heading {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: 600;
       color: black;
       @media only screen and (min-width: 1600px) {
-        font-size: 32px;
+        font-size: 30px;
       }
     }
     &-text {
@@ -116,10 +139,15 @@
       }
 
       p {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         text-decoration: none;
         color: black;
+        margin-top: 1px;
+        @media only screen and (min-width: 1600px) {
+          font-size: 22px;
+          line-height: 20px;
+        }
       }
     }
   }
@@ -170,30 +198,37 @@
         font-size: 64px;
       }
     }
-    &-heading {
-      font-size: 18px;
-      font-weight: 600;
-      color: $black;
-      text-align: center;
-      margin-top: 20px;
-      @media only screen and (min-width: 1600px) {
-        font-size: 24px;
-      }
-    }
-    &-text {
-      color: #8f8f8f;
-      font-size: 14px;
-      font-weight: 400;
-      text-align: center;
-      @media only screen and (min-width: 1600px) {
-        font-size: 18px;
-      }
-    }
+    // &-heading {
+    //   font-size: 20px;
+    //   font-weight: 600 !important;
+    //   color: $black;
+    //   text-align: center;
+    //   margin-top: 20px;
+    //   @media only screen and (min-width: 1600px) {
+    //     font-size: 30px;
+    //   }
+    // }
+    // &-text {
+    //   color: #8f8f8f;
+    //   font-size: 14px;
+    //   font-weight: 400;
+    //   text-align: center;
+    //   @media only screen and (min-width: 1600px) {
+    //     font-size: 18px;
+    //   }
+    // }
   }
 }
 
 .procedure-details {
-  padding: 100px 0px 80px 0px !important;
+  padding: 80px 0px 60px 0px !important;
+
+  @media only screen and (min-width: 1600px) {
+    padding: 100px 0px 80px 0px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 0px 40px 0px !important;
+  }
   &-heading {
     font-size: 35px;
     font-weight: 600;
@@ -222,9 +257,18 @@
     font-size: 20px;
     letter-spacing: 6px;
   }
+  @media only screen and (max-width: 768px) {
+   font-size: 16px;
+  }
 }
 .qualties {
-  padding: 100px 0px;
+  padding: 80px 0px;
+  @media only screen and (min-width: 1600px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 0px;
+  }
 
   &__card {
     display: flex;
@@ -275,11 +319,18 @@
 }
 
 .graphic-process {
-  padding: 100px 0px;
+  padding: 80px 0px;
+  @media only screen and (min-width: 1600px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 0px;
+  }
   background-color: #221d42;
   &__card {
+    border: 3px solid white;
     background-color: white;
-    padding: 30px 20px;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +342,7 @@
       font-weight: 600;
       color: $primary;
       @media only screen and (min-width: 1600px) {
-        font-size: 74px;
+        font-size: 70px;
         font-weight: 600;
         color: $primary;
       }
@@ -300,9 +351,14 @@
       color: #221d42;
       font-size: 22px;
       font-weight: 600;
+      min-height: 50px;
       @media only screen and (min-width: 1600px) {
         font-size: 27px;
         font-weight: 600;
+        min-height: 60px;
+      }
+      @media only screen and (max-width: 991px) {
+        min-height: fit-content;
       }
     }
     &-text {
@@ -315,6 +371,16 @@
     }
   }
 }
+
+.graphic-process__card-link{
+  border: 3px solid $primary !important;
+  transition: all .5s;
+  &:hover{
+   border: 3px solid white !important;
+   box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px;
+  }
+}
+
 .active-btn {
   .graphic-process__card {
     background-color: $primary;
@@ -325,8 +391,13 @@
 
 .join-us {
   background-color: $primary;
+  margin-top: 250px;
+  @media only screen and (max-width:767px){
+    margin-top: 0px;
+  }
   .join-us-text {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .join-img {
     position: relative;
@@ -357,8 +428,6 @@
       width: 250px;
       margin-bottom: 10px;
     }
-
-   
   }
 }
 .hero-text br {
@@ -376,15 +445,22 @@
 }
 
 // ==================owl carousel
-.owl-nav{
+.owl-nav {
   display: none !important;
 }
-.owl-dots{
+.owl-dots {
   display: none !important;
 }
-.owl-item{
-  @media only screen and (max-width:1300px){
+.owl-item {
+  @media only screen and (max-width: 1300px) {
     display: flex !important;
     justify-content: center !important;
+  }
+}
+.no-br{
+  br{
+    @media only screen and (max-width: 1768px) {
+      display: none !important;
+     }
   }
 }
