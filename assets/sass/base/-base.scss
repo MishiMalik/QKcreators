@@ -5,8 +5,9 @@ body{
     // box-sizing: border-box;
     // font-family: 'false', sans-serif;
     padding-top: 88px;
+    background-color: transparent;
     font-family: 'GeneralSans-Variable';
-    @media only screen and (min-width:1600px){
+    @media only screen and (min-width:1700px){
         padding-top: 115px;
     }
 }

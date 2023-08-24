@@ -1,0 +1,224 @@
+.service-row {
+    position: relative;
+    margin-top: 50px
+  }
+
+  .service-row a:hover::before {
+    width: 90%;
+  }
+
+  .service-row a::before,
+  .service-row a:visited::before {
+    content: " ";
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    background-color: #d5d5d5;
+    // transition: all 0.5s ease-in-out;
+  }
+
+//   .service-row a::after,
+//   .service-row a:visited::after {
+//     content: " ";
+//     width: 0;
+//     height: 2px;
+//     position: absolute;
+//     bottom: 0;
+//     background: $primary;
+//     transition: all 0s ease-in-out;
+//   }
+
+//   .service-row.active-project a .service-title,
+//   .service-row a:hover .service-title {
+//     background: $primary;
+//     background-clip: text;
+//     -webkit-background-clip: text;
+//     color: transparent;
+//     background-size: 100%;
+//   }
+
+//   service2
+
+.service-row2 a::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #0F1835;
+  transition: all 0s ease-in;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+.service-row2.active-project a .service-title,
+.service-row2 a:hover .service-title {
+  background: #0F1835;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+//   service3
+
+.service-row3 a::after,
+.service-row3 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FFD02F;
+  transition: all 0s ease-in-out;
+}
+
+.service-row3.active-project a .service-title,
+.service-row3 a:hover .service-title {
+  background: #FFD02F;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+//   service4
+
+.service-row4 a::after,
+.service-row4 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #00BE93;
+  transition: all 0s ease-in-out;
+}
+
+.service-row4.active-project a .service-title,
+.service-row2 a:hover .service-title {
+  background: #00BE93;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+
+//   service5
+
+.service-row5 a::after,
+.service-row5 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FF3381;
+  transition: all 0s ease-in-out;
+}
+
+.service-row5.active-project a .service-title,
+.service-row5 a:hover .service-title {
+  background: #FF3381;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+
+//   service6
+
+.service-row6 a::after,
+.service-row6 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #A15DDC;
+  transition: all 0s ease-in-out;
+}
+
+.service-row6.active-project a .service-title,
+.service-row6 a:hover .service-title {
+  background: #A15DDC;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+
+//   service7
+
+.service-row7 a::after,
+.service-row7 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #579CFB;
+  transition: all 0s ease-in-out;
+}
+
+.service-row7.active-project a .service-title,
+.service-row7 a:hover .service-title {
+  background: #579CFB;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+
+//   service8
+
+.service-row8 a::after,
+.service-row8 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FCAB3C;
+  transition: all 0s ease-in-out;
+}
+
+.service-row8.active-project a .service-title,
+.service-row8 a:hover .service-title {
+  background: #FCAB3C;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%;
+}
+
+
+  .service-row.active-project a::after,
+  .service-row a:hover::after {
+    width: 90%;
+    left: 5%;
+  }
+
+
+  .service-row.active-service a::after {
+    width: 100%;
+  }
+
+
+ 
+  .service-right-image.active-project {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .active-project a::after{
+    transition: all 3s ease-in;
+}

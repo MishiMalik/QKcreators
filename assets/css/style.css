@@ -3,8 +3,9 @@ body {
   margin: 0;
   padding: 0;
   padding-top: 88px;
+  background-color: transparent;
   font-family: 'GeneralSans-Variable'; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     body {
       padding-top: 115px; } }
 
@@ -19,7 +20,7 @@ body {
 
 .f-35 {
   font-size: 35px; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .f-35 {
       font-size: 45px; } }
   @media only screen and (max-width: 768px) {
@@ -42,7 +43,7 @@ body {
 .f-20 {
   font-size: 18px;
   line-height: 25px; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .f-20 {
       font-size: 25px;
       line-height: 35px; } }
@@ -84,6 +85,9 @@ body {
 .text-blue {
   color: #221D42 !important; }
 
+.text-primary {
+  color: #FF3381 !important; }
+
 .heading-primary {
   font-size: 45px;
   font-weight: 700;
@@ -91,7 +95,7 @@ body {
   line-height: 55px; }
   .heading-primary span {
     color: black; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .heading-primary {
       font-size: 50px;
       line-height: 62px; } }
@@ -116,6 +120,163 @@ body {
 @media only screen and (min-width: 1920px) {
   .container {
     max-width: 85%; } }
+
+.service-row {
+  position: relative;
+  margin-top: 50px; }
+
+.service-row a:hover::before {
+  width: 90%; }
+
+.service-row a::before,
+.service-row a:visited::before {
+  content: " ";
+  width: 90%;
+  height: 1px;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  background-color: #d5d5d5; }
+
+.service-row2 a::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #0F1835;
+  transition: all 0s ease-in; }
+
+.service-row2.active-project a .service-title,
+.service-row2 a:hover .service-title {
+  background: #0F1835;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row3 a::after,
+.service-row3 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FFD02F;
+  transition: all 0s ease-in-out; }
+
+.service-row3.active-project a .service-title,
+.service-row3 a:hover .service-title {
+  background: #FFD02F;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row4 a::after,
+.service-row4 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #00BE93;
+  transition: all 0s ease-in-out; }
+
+.service-row4.active-project a .service-title,
+.service-row2 a:hover .service-title {
+  background: #00BE93;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row5 a::after,
+.service-row5 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FF3381;
+  transition: all 0s ease-in-out; }
+
+.service-row5.active-project a .service-title,
+.service-row5 a:hover .service-title {
+  background: #FF3381;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row6 a::after,
+.service-row6 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #A15DDC;
+  transition: all 0s ease-in-out; }
+
+.service-row6.active-project a .service-title,
+.service-row6 a:hover .service-title {
+  background: #A15DDC;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row7 a::after,
+.service-row7 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #579CFB;
+  transition: all 0s ease-in-out; }
+
+.service-row7.active-project a .service-title,
+.service-row7 a:hover .service-title {
+  background: #579CFB;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row8 a::after,
+.service-row8 a:visited::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #FCAB3C;
+  transition: all 0s ease-in-out; }
+
+.service-row8.active-project a .service-title,
+.service-row8 a:hover .service-title {
+  background: #FCAB3C;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100%; }
+
+.service-row.active-project a::after,
+.service-row a:hover::after {
+  width: 90%;
+  left: 5%; }
+
+.service-row.active-service a::after {
+  width: 100%; }
+
+.service-right-image.active-project {
+  opacity: 1;
+  visibility: visible; }
+
+.active-project a::after {
+  transition: all 3s ease-in; }
 
 .nav-btn {
   padding: 14px 22px;
@@ -151,10 +312,10 @@ body {
   .fill-btn:hover {
     box-shadow: 0px 9px 14px #ff33818f;
     color: white !important; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1800px) {
     .fill-btn {
-      font-size: 20px;
-      padding: 20px 45px; } }
+      font-size: 18px;
+      padding: 16px 35px; } }
   @media only screen and (max-width: 500px) {
     .fill-btn {
       padding: 10px 20px;
@@ -176,10 +337,10 @@ body {
     color: white !important;
     background-color: #221d42;
     border: 2px solid #221d42; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1800px) {
     .blank-btn {
-      font-size: 20px;
-      padding: 20px 45px; } }
+      font-size: 18px;
+      padding: 16px 35px; } }
   @media only screen and (max-width: 500px) {
     .blank-btn {
       padding: 10px 20px;
@@ -239,10 +400,10 @@ body {
   .fill-btn-white:hover {
     background-color: #221d42;
     color: white !important; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1800px) {
     .fill-btn-white {
-      font-size: 20px;
-      padding: 20px 45px; } }
+      font-size: 18px;
+      padding: 16px 35px; } }
 
 .navbar {
   padding-top: 15px;
@@ -348,17 +509,94 @@ body {
     box-shadow: none !important; }
 
 .footer {
-  padding: 100px 0px;
+  padding: 80px 0px 0px 0px;
   background-color: #221D42; }
+  @media only screen and (min-width: 1700px) {
+    .footer {
+      padding: 100px 0px 0px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .footer {
+      padding: 60px 0px 0px 0px; } }
+  @media only screen and (max-width: 580px) {
+    .footer .logo-div {
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
   .footer .footer-logo {
     height: 40px; }
+
+@media only screen and (max-width: 580px) {
+  .footer-links {
+    width: 100%;
+    text-align: center; } }
+
+@media only screen and (max-width: 580px) {
+  .footer-links p {
+    width: 100%;
+    text-align: center; } }
+
+.hover-primary {
+  position: relative; }
+
+.hover-primary::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0px;
+  background-color: #FF3381;
+  height: 2px;
+  transition: all .3s; }
+
+.hover-primary:hover {
+  color: #FF3381 !important; }
+
+.hover-primary:hover.hover-primary::after {
+  width: 100%; }
+
+.footer-terms {
+  padding: 30px 0px 20px 0px; }
+
+.terms-list {
+  display: flex;
+  align-items: center; }
+  @media only screen and (max-width: 768px) {
+    .terms-list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
+
+.terms-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 !important;
+  line-height: 12px; }
+  @media only screen and (max-width: 768px) {
+    .terms-list a {
+      line-height: 25px; } }
+
+.border-right {
+  border-right: 0.5px solid #504d4d; }
+  @media only screen and (max-width: 768px) {
+    .border-right {
+      border-right: none !important; } }
+
+.terms-list a:hover,
+.terms-list a svg path:hover {
+  color: #FF3381;
+  fill: #FF3381 !important; }
+
+.border-top {
+  border-top: 1px solid white; }
 
 .main-image {
   width: 100%;
   object-fit: cover;
   object-position: right;
   height: 650px; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .main-image {
       height: 700px;
       object-position: left; } }
@@ -398,18 +636,18 @@ body {
   .logos-section .logo-images img {
     height: 52px;
     width: auto !important; }
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       .logos-section .logo-images img {
         height: 62px;
         width: auto !important; } }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .logos-section {
       padding: 20px 0px; } }
 
 .services {
   padding: 80px 0px;
   background-color: #fff3f8; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .services {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
@@ -439,13 +677,13 @@ body {
       font-size: 20px;
       font-weight: 600;
       color: black; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .services .service__card-heading {
           font-size: 30px; } }
     .services .service__card-text {
       font-size: 16px;
       font-weight: 400; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .services .service__card-text {
           font-size: 24px; } }
     .services .service__card-btn {
@@ -457,7 +695,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center; }
-        @media only screen and (min-width: 1600px) {
+        @media only screen and (min-width: 1700px) {
           .services .service__card-btn img {
             height: 50px;
             width: 50px;
@@ -468,33 +706,56 @@ body {
         text-decoration: none;
         color: black;
         margin-top: 1px; }
-        @media only screen and (min-width: 1600px) {
+        @media only screen and (min-width: 1700px) {
           .services .service__card-btn p {
             font-size: 22px;
             line-height: 20px; } }
 
 .procedure {
-  padding-top: 100px !important; }
+  padding: 30px 0px 0px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .procedure {
+      padding: 50px 0px 0px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .procedure {
+      padding: 10px 0px 0px 0px; } }
   .procedure .procedure__card {
     border-bottom: 2px solid #cecece;
     height: 100%; }
     .procedure .procedure__card:hover {
-      cursor: pointer;
-      border-color: #FF3381; }
-      .procedure .procedure__card:hover .procedure__card-number {
-        color: #FF3381; }
+      cursor: pointer; }
     .procedure .procedure__card-number {
       font-size: 54px;
       color: #cecece;
       font-weight: 600;
       text-align: center; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .procedure .procedure__card-number {
           font-size: 64px; } }
+    .procedure .procedure__card-heading {
+      font-size: 20px;
+      font-weight: 600 !important;
+      color: #000000;
+      text-align: center;
+      margin-top: 20px; }
+      @media only screen and (min-width: 1700px) {
+        .procedure .procedure__card-heading {
+          font-size: 30px; } }
+      @media only screen and (max-width: 600px) {
+        .procedure .procedure__card-heading {
+          font-size: 18px; } }
+    .procedure .procedure__card-text {
+      color: #8f8f8f;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center; }
+      @media only screen and (min-width: 1700px) {
+        .procedure .procedure__card-text {
+          font-size: 18px; } }
 
 .procedure-details {
   padding: 80px 0px 60px 0px !important; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .procedure-details {
       padding: 100px 0px 80px 0px !important; } }
   @media only screen and (max-width: 768px) {
@@ -504,14 +765,14 @@ body {
     font-size: 35px;
     font-weight: 600;
     color: #221d42; }
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       .procedure-details-heading {
         font-size: 45px; } }
   .procedure-details-text {
     font-size: 18px;
     font-weight: 500;
     color: #161515; }
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       .procedure-details-text {
         font-size: 25px;
         font-weight: 500; } }
@@ -522,7 +783,7 @@ body {
   font-weight: 500;
   color: #FF3381;
   text-align: center; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .caption-tag {
       font-size: 20px;
       letter-spacing: 6px; } }
@@ -532,7 +793,7 @@ body {
 
 .qualties {
   padding: 80px 0px; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .qualties {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
@@ -553,7 +814,7 @@ body {
       line-height: 0px;
       color: white;
       font-size: 22px; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .qualties__card-number {
           height: 96px;
           width: 96px;
@@ -565,7 +826,7 @@ body {
       font-size: 20px;
       font-weight: 600;
       color: #000000; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .qualties__card-heading {
           font-size: 24px;
           font-weight: 500;
@@ -574,7 +835,7 @@ body {
       color: #8f8f8f;
       font-size: 14px;
       font-weight: 400; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .qualties__card-text {
           color: #8f8f8f;
           font-size: 18px;
@@ -583,7 +844,7 @@ body {
 .graphic-process {
   padding: 80px 0px;
   background-color: #221d42; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     .graphic-process {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
@@ -603,7 +864,7 @@ body {
       font-size: 54px;
       font-weight: 600;
       color: #FF3381; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .graphic-process__card-number {
           font-size: 70px;
           font-weight: 600;
@@ -613,7 +874,7 @@ body {
       font-size: 22px;
       font-weight: 600;
       min-height: 50px; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .graphic-process__card-heading {
           font-size: 27px;
           font-weight: 600;
@@ -625,13 +886,13 @@ body {
       color: #8f8f8f;
       font-weight: 400;
       font-size: 16px; }
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         .graphic-process__card-text {
           font-size: 20px; } }
 
 .graphic-process__card-link {
   border: 3px solid #FF3381 !important;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .graphic-process__card-link:hover {
     border: 3px solid white !important;
     box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px; }
@@ -700,3 +961,48 @@ body {
 @media only screen and (max-width: 1768px) {
   .no-br br {
     display: none !important; } }
+
+.client-portal {
+  background-color: #FF3381;
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .client-portal {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .client-portal {
+      padding: 60px 0px; } }
+  @media only screen and (max-width: 570px) {
+    .client-portal {
+      padding: 60px 15px; } }
+  .client-portal-content {
+    background-color: white;
+    border: 1px solid #221d42;
+    border-radius: 68px; }
+    @media only screen and (max-width: 768px) {
+      .client-portal-content {
+        border-radius: 18px; } }
+    .client-portal-content-text {
+      padding: 50px 55px; }
+      @media only screen and (min-width: 1700px) {
+        .client-portal-content-text {
+          padding: 70px 70px; } }
+      @media only screen and (max-width: 1200px) {
+        .client-portal-content-text {
+          padding: 40px 40px; } }
+      @media only screen and (max-width: 768px) {
+        .client-portal-content-text {
+          padding: 20px 20px; } }
+      @media only screen and (max-width: 570px) {
+        .client-portal-content-text {
+          padding: 20px 10px; } }
+  .client-portal-tag {
+    font-size: 18px;
+    font-weight: 500;
+    color: #221d42;
+    letter-spacing: 1.54px;
+    line-height: 41px; }
+    @media only screen and (max-width: 768px) {
+      .client-portal-tag {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1px; } }

@@ -4,7 +4,7 @@
   object-fit: cover;
   object-position: right;
   height: 650px;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     height: 700px;
     object-position: left;
   }
@@ -61,12 +61,12 @@
   .logo-images img {
     height: 52px;
     width: auto !important;
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       height: 62px;
       width: auto !important;
     }
   }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     padding: 20px 0px;
   }
 }
@@ -74,7 +74,7 @@
 .services {
   padding: 80px 0px;
   background-color: #fff3f8;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
@@ -111,14 +111,14 @@
       font-size: 20px;
       font-weight: 600;
       color: black;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 30px;
       }
     }
     &-text {
       font-size: 16px;
       font-weight: 400;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 24px;
       }
     }
@@ -131,7 +131,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @media only screen and (min-width: 1600px) {
+        @media only screen and (min-width: 1700px) {
           height: 50px;
           width: 50px;
           border-radius: 100%;
@@ -144,7 +144,7 @@
         text-decoration: none;
         color: black;
         margin-top: 1px;
-        @media only screen and (min-width: 1600px) {
+        @media only screen and (min-width: 1700px) {
           font-size: 22px;
           line-height: 20px;
         }
@@ -154,76 +154,61 @@
 }
 
 .procedure {
-  padding-top: 100px !important;
+  padding: 30px 0px 0px 0px;
+  @media only screen and (min-width: 1700px) {
+    padding: 50px 0px 0px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 10px 0px 0px 0px;
+  }
+
 
   .procedure__card {
     border-bottom: 2px solid #cecece;
-    // position: realtive;
-    // &::after{
-    //     content: "";
-    //     width: 100%;
-    //     height: 2px;
-    //     background: #CECECE;
-    //     position: absolute;
-    //     bottom: 5px;
-    //     left: 0;
-    //     right: 0
-    //         }
-    // &::before{
-    //     content: ' ';
-    //     width: 0%;
-    //     height: 2px;
-    //     background: red;
-    //     position: absolute;
-    //     bottom: 5px;
-    // }
-    // &:hover &::before{
-    //     width: 100%;
-    //     transition: all 0.5s ease-in-out
-    // }
+ 
     height: 100%;
     &:hover {
       cursor: pointer;
-      border-color: $primary;
-      .procedure__card-number {
-        color: $primary;
-      }
+      
     }
     &-number {
       font-size: 54px;
       color: #cecece;
       font-weight: 600;
       text-align: center;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 64px;
       }
     }
-    // &-heading {
-    //   font-size: 20px;
-    //   font-weight: 600 !important;
-    //   color: $black;
-    //   text-align: center;
-    //   margin-top: 20px;
-    //   @media only screen and (min-width: 1600px) {
-    //     font-size: 30px;
-    //   }
-    // }
-    // &-text {
-    //   color: #8f8f8f;
-    //   font-size: 14px;
-    //   font-weight: 400;
-    //   text-align: center;
-    //   @media only screen and (min-width: 1600px) {
-    //     font-size: 18px;
-    //   }
-    // }
+    &-heading {
+      font-size: 20px;
+      font-weight: 600 !important;
+      color: $black;
+      text-align: center;
+      margin-top: 20px;
+      @media only screen and (min-width: 1700px) {
+        font-size: 30px;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 18px;
+      }
+    }
+    &-text {
+      color: #8f8f8f;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      @media only screen and (min-width: 1700px) {
+        font-size: 18px;
+      }
+    }
   }
 }
 
 .procedure-details {
   padding: 80px 0px 60px 0px !important;
 
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     padding: 100px 0px 80px 0px !important;
   }
   @media only screen and (max-width: 768px) {
@@ -233,7 +218,7 @@
     font-size: 35px;
     font-weight: 600;
     color: #221d42;
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       font-size: 45px;
     }
   }
@@ -241,7 +226,7 @@
     font-size: 18px;
     font-weight: 500;
     color: #161515;
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
       font-size: 25px;
       font-weight: 500;
     }
@@ -253,17 +238,17 @@
   font-weight: 500;
   color: $primary;
   text-align: center;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     font-size: 20px;
     letter-spacing: 6px;
   }
   @media only screen and (max-width: 768px) {
-   font-size: 16px;
+    font-size: 16px;
   }
 }
 .qualties {
   padding: 80px 0px;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
@@ -285,7 +270,7 @@
       line-height: 0px;
       color: white;
       font-size: 22px;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         height: 96px;
         width: 96px;
         border-radius: 100%;
@@ -299,7 +284,7 @@
       font-weight: 600;
       color: #000000;
 
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 24px;
         font-weight: 500;
         color: #000000;
@@ -309,7 +294,7 @@
       color: #8f8f8f;
       font-size: 14px;
       font-weight: 400;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         color: #8f8f8f;
         font-size: 18px;
         font-weight: 400;
@@ -320,7 +305,7 @@
 
 .graphic-process {
   padding: 80px 0px;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
@@ -341,7 +326,7 @@
       font-size: 54px;
       font-weight: 600;
       color: $primary;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 70px;
         font-weight: 600;
         color: $primary;
@@ -352,7 +337,7 @@
       font-size: 22px;
       font-weight: 600;
       min-height: 50px;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 27px;
         font-weight: 600;
         min-height: 60px;
@@ -365,19 +350,19 @@
       color: #8f8f8f;
       font-weight: 400;
       font-size: 16px;
-      @media only screen and (min-width: 1600px) {
+      @media only screen and (min-width: 1700px) {
         font-size: 20px;
       }
     }
   }
 }
 
-.graphic-process__card-link{
+.graphic-process__card-link {
   border: 3px solid $primary !important;
-  transition: all .5s;
-  &:hover{
-   border: 3px solid white !important;
-   box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px;
+  transition: all 0.5s;
+  &:hover {
+    border: 3px solid white !important;
+    box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px;
   }
 }
 
@@ -392,7 +377,7 @@
 .join-us {
   background-color: $primary;
   margin-top: 250px;
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     margin-top: 0px;
   }
   .join-us-text {
@@ -457,10 +442,61 @@
     justify-content: center !important;
   }
 }
-.no-br{
-  br{
+.no-br {
+  br {
     @media only screen and (max-width: 1768px) {
       display: none !important;
-     }
+    }
+  }
+}
+
+// ====================================client portal
+.client-portal {
+  background-color: $primary;
+  padding: 80px 0px;
+  @media only screen and (min-width: 1700px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 0px;
+  }
+  @media only screen and (max-width: 570px) {
+    padding: 60px 15px;
+  }
+  &-content {
+    background-color: white;
+    border: 1px solid #221d42;
+    border-radius: 68px;
+    @media only screen and (max-width: 768px) {
+      border-radius: 18px;
+    }
+   
+    &-text {
+      padding: 50px 55px;
+      @media only screen and (min-width: 1700px) {
+        padding: 70px 70px;
+      }
+      @media only screen and (max-width: 1200px) {
+        padding: 40px 40px;
+      }
+      @media only screen and (max-width: 768px) {
+        padding: 20px 20px;
+      }
+      @media only screen and (max-width: 570px) {
+        padding: 20px 10px;
+      }
+    }
+  }
+  &-tag {
+    font-size: 18px;
+    font-weight: 500;
+    color: #221d42;
+    letter-spacing: 1.54px;
+    line-height: 41px;
+    @media only screen and (max-width: 768px) {
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 1px;
+    }
   }
 }

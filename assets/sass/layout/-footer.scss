@@ -1,7 +1,88 @@
 .footer{
-    padding: 100px 0px;
+    padding: 80px 0px 0px 0px;
+    @media only screen and (min-width: 1700px) {
+      padding: 100px 0px 0px 0px;
+    }
+    @media only screen and (max-width: 768px) {
+      padding: 60px 0px 0px 0px;
+    }
     background-color: #221D42;
+    .logo-div{
+        @media only screen and (max-width:580px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
     .footer-logo{
         height: 40px;
     }
+}
+.footer-links{ 
+    @media only screen and (max-width:580px){
+        width: 100%;
+        text-align: center;
+    }
+   p {
+        @media only screen and (max-width:580px){
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+.hover-primary{
+    position: relative;
+}
+.hover-primary::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0px;
+    background-color: $primary;
+    height: 2px;
+    transition: all .3s;
+}
+.hover-primary:hover{
+    color: $primary !important;
+}
+.hover-primary:hover.hover-primary::after{
+    width: 100%;
+}
+.footer-terms{
+    padding:30px 0px 20px 0px;
+}
+.terms-list{
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width:768px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.terms-list a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+   margin: 0 !important;
+   line-height: 12px;
+   @media only screen and (max-width:768px){
+    line-height: 25px;
+}
+}
+.border-right{
+    border-right: .5px solid rgb(80, 77, 77);
+    @media only screen and (max-width:768px){
+       border-right: none !important;
+    }
+}
+.terms-list a:hover,
+.terms-list a svg path:hover{
+    color: $primary;
+    fill: $primary !important;
+}
+.border-top{
+    border-top: 1px solid white;
 }

@@ -10,7 +10,7 @@
 }
 .f-35 {
     font-size: 35px;
-    @media only screen and (min-width: 1600px) {
+    @media only screen and (min-width: 1700px) {
         font-size: 45px;
       }
       @media only screen and (max-width: 768px) {
@@ -33,7 +33,7 @@
 .f-20 {
   font-size: 18px;
   line-height: 25px;
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     font-size: 25px;
     line-height: 35px;
   }
@@ -78,6 +78,9 @@
 .text-blue{
     color: #221D42 !important;
 }
+.text-primary{
+  color: $primary !important;
+}
 // ==========================headings
 .heading-primary {
   font-size: 45px;
@@ -87,7 +90,7 @@
   span {
     color: black;
   }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1700px) {
     font-size: 50px;
     line-height: 62px;
   }
