@@ -1006,3 +1006,36 @@ body {
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 1px; } }
+
+.portal-img {
+  position: relative;
+  overflow: hidden; }
+  @media only screen and (min-width: 1500px) {
+    .portal-img {
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
+
+.portal-img img {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  height: 100%;
+  width: auto; }
+  @media only screen and (min-width: 1500px) {
+    .portal-img img {
+      position: relative;
+      height: 450px; } }
+  @media only screen and (max-width: 1300px) {
+    .portal-img img {
+      height: 400px;
+      bottom: 100px;
+      right: 10px; } }
+  @media only screen and (max-width: 1100px) {
+    .portal-img img {
+      height: 300px;
+      bottom: 100px;
+      right: 10px; } }
+  @media only screen and (max-width: 991px) {
+    .portal-img img {
+      display: none; } }
