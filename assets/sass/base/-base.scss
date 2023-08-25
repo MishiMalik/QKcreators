@@ -10,4 +10,8 @@ body{
     @media only screen and (min-width:1700px){
         padding-top: 115px;
     }
+    @media only screen and (max-width:768px){
+        padding-top: 77px;
+      
+    }
 }

@@ -8,6 +8,9 @@ body {
   @media only screen and (min-width: 1700px) {
     body {
       padding-top: 115px; } }
+  @media only screen and (max-width: 768px) {
+    body {
+      padding-top: 77px; } }
 
 .f-45 {
   font-size: 45px; }
@@ -466,6 +469,10 @@ body {
     .navbar {
       padding-top: 20px;
       padding-bottom: 20px; } }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
 
 .navbar-logo {
   height: 45px;
@@ -1204,7 +1211,13 @@ body {
       padding: 60px 0px; } }
   @media only screen and (max-width: 570px) {
     .reasons {
-      padding: 60px 15px; } }
+      padding: 60px 0px; } }
+
+.icon-72px {
+  height: 80px; }
+  @media only screen and (max-width: 768px) {
+    .icon-72px {
+      height: 60px; } }
 
 .scroll-card {
   width: 100%;
@@ -1218,6 +1231,9 @@ body {
   display: flex;
   position: -webkit-sticky;
   position: sticky; }
+  @media only screen and (max-width: 767px) {
+    .scroll-card {
+      padding: 30px 15px; } }
 
 .teams_card-heading {
   font-size: 24px;
@@ -1246,24 +1262,60 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._0 {
+      top: 140px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._0 {
+      top: 90px; } }
 
 .scroll-card._1 {
   top: 180px; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._1 {
+      top: 220px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._1 {
+      top: 140px; } }
 
 .scroll-card._2 {
   top: 210px; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._2 {
+      top: 240px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._2 {
+      top: 150px; } }
 
 .scroll-card._3 {
   top: 240px; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._3 {
+      top: 260px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._3 {
+      top: 160px; } }
 
 .scroll-card._4 {
   top: 270px; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._4 {
+      top: 280px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._4 {
+      top: 170px; } }
 
 .scroll-card._5 {
   top: 300px;
   height: 600px;
   background-color: transparent;
   border: none; }
+  @media only screen and (min-width: 1700px) {
+    .scroll-card._5 {
+      height: 0px; } }
+  @media only screen and (max-width: 767px) {
+    .scroll-card._5 {
+      height: 300px; } }
 
 .mb-80 {
   margin-bottom: 80px !important; }
