@@ -121,6 +121,54 @@ body {
   .container {
     max-width: 85%; } }
 
+/* ================================================================product card images */
+.portfolio__card-img {
+  position: relative;
+  display: block;
+  flex: 1 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* transition: all 200ms ease-out; */
+  box-sizing: border-box;
+  white-space: normal; }
+
+.portfolio__card-img figure {
+  display: flex;
+  margin: 0; }
+
+@media only screen and (max-width: 7479px) {
+  .portfolio__card-img figure {
+    justify-content: center; } }
+
+.portfolio__card-img div {
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.portfolio__card-img div:before {
+  display: block;
+  content: '';
+  padding-top: 100%; }
+
+.portfolio__card-img div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (max-width: 7479px) {
+  .portfolio__card-img div {
+    width: 100%; } }
+
+.portfolio__card-img img {
+  display: block;
+  flex: 1 1 auto;
+  object-fit: cover; }
+
 .service-row {
   position: relative;
   margin-top: 50px; }
@@ -904,7 +952,7 @@ body {
 
 .join-us {
   background-color: #FF3381;
-  margin-top: 250px; }
+  margin-top: 180px; }
   @media only screen and (max-width: 767px) {
     .join-us {
       margin-top: 0px; } }
@@ -1039,3 +1087,203 @@ body {
   @media only screen and (max-width: 991px) {
     .portal-img img {
       display: none; } }
+
+.portfolio-row .portfolio__card-link {
+  text-decoration: none;
+  color: inherit !important; }
+
+.portfolio-row .portfolio-col:nth-child(even) {
+  margin-top: 80px !important; }
+  @media only screen and (max-width: 767px) {
+    .portfolio-row .portfolio-col:nth-child(even) {
+      margin-top: 0px !important; } }
+
+@media only screen and (max-width: 767px) {
+  .portfolio-col {
+    margin-bottom: 20px !important; } }
+
+.portfolio {
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .portfolio {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .portfolio {
+      padding: 60px 0px; } }
+  @media only screen and (max-width: 570px) {
+    .portfolio {
+      padding: 60px 15px; } }
+  .portfolio__card:hover {
+    box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px; }
+  .portfolio__card:hover {
+    color: inherit !important; }
+  .portfolio__card-text {
+    padding: 20px 10px; }
+    .portfolio__card-text h1 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #161515; }
+      @media only screen and (max-width: 991px) {
+        .portfolio__card-text h1 {
+          font-size: 20px; } }
+      @media only screen and (max-width: 767px) {
+        .portfolio__card-text h1 {
+          font-size: 18px; } }
+    .portfolio__card-text p {
+      font-size: 16px;
+      font-weight: 400;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      @media only screen and (max-width: 991px) {
+        .portfolio__card-text p {
+          font-size: 14px; } }
+
+.portfolio__card {
+  position: relative;
+  overflow: hidden; }
+
+.overlay-bg,
+.overlay-bg::before,
+.overlay-bg::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  height: 100%; }
+
+.overlay-bg {
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.overlay-bg p {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  z-index: 4; }
+
+.overlay-bg::before,
+.overlay-bg::after {
+  left: 50%;
+  content: '';
+  width: 200%;
+  margin-left: -100%;
+  background: rgba(0, 0, 0, 0.45);
+  transform: skewX(-30deg) translateX(-100%);
+  transition: transform .3s linear .3s; }
+
+.portfolio__card:hover .overlay-bg {
+  opacity: 1;
+  visibility: visible; }
+
+.portfolio__card:hover .overlay-bg::before {
+  transform: skewX(-30deg) translateX(0);
+  transition: transform .3s linear; }
+
+.portfolio__card:hover .overlay-bg::after {
+  transform: skewX(-30deg) translateX(0);
+  transition: transform .3s linear .15s; }
+
+.reasons {
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .reasons {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .reasons {
+      padding: 60px 0px; } }
+  @media only screen and (max-width: 570px) {
+    .reasons {
+      padding: 60px 15px; } }
+
+.scroll-card {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky; }
+
+.teams_card-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: white; }
+  @media only screen and (max-width: 991px) {
+    .teams_card-heading {
+      font-size: 20px; } }
+  @media only screen and (max-width: 767px) {
+    .teams_card-heading {
+      font-size: 18px; } }
+
+.teams_body {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: white; }
+  @media only screen and (max-width: 991px) {
+    .teams_body {
+      font-size: 14px; } }
+
+.scroll-card._0 {
+  top: 110px;
+  padding: 0px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+.scroll-card._1 {
+  top: 180px; }
+
+.scroll-card._2 {
+  top: 210px; }
+
+.scroll-card._3 {
+  top: 240px; }
+
+.scroll-card._4 {
+  top: 270px; }
+
+.scroll-card._5 {
+  top: 300px;
+  height: 600px;
+  background-color: transparent;
+  border: none; }
+
+.mb-80 {
+  margin-bottom: 80px !important; }
+
+.sticky-wrapper {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden; }
+
+.teams_features-right {
+  width: 100%;
+  grid-column-gap: 3rem;
+  grid-row-gap: 4rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative; }
