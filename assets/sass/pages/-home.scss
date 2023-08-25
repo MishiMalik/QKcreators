@@ -376,9 +376,12 @@
 
 .join-us {
   background-color: $primary;
-  margin-top: 180px;
+  margin-top: 200px;
   @media only screen and (max-width: 767px) {
     margin-top: 0px;
+  }
+  @media only screen and (max-width: 1200px) {
+    margin-top: 100px;
   }
   .join-us-text {
     padding-top: 50px;

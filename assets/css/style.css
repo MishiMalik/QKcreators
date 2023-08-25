@@ -572,7 +572,7 @@ body {
   @media only screen and (max-width: 768px) {
     .footer {
       padding: 60px 0px 0px 0px; } }
-  @media only screen and (max-width: 580px) {
+  @media only screen and (max-width: 600px) {
     .footer .logo-div {
       display: flex;
       justify-content: center;
@@ -580,12 +580,12 @@ body {
   .footer .footer-logo {
     height: 40px; }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
   .footer-links {
     width: 100%;
     text-align: center; } }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 600px) {
   .footer-links p {
     width: 100%;
     text-align: center; } }
@@ -959,10 +959,13 @@ body {
 
 .join-us {
   background-color: #FF3381;
-  margin-top: 180px; }
+  margin-top: 200px; }
   @media only screen and (max-width: 767px) {
     .join-us {
       margin-top: 0px; } }
+  @media only screen and (max-width: 1200px) {
+    .join-us {
+      margin-top: 100px; } }
   .join-us .join-us-text {
     padding-top: 50px;
     padding-bottom: 50px; }
