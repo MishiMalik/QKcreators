@@ -972,6 +972,12 @@ body {
   .join-us .join-us-text {
     padding-top: 60px;
     padding-bottom: 60px; }
+    @media only screen and (max-width: 768px) {
+      .join-us .join-us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; } }
   .join-us .join-img {
     position: relative;
     height: 100%; }
