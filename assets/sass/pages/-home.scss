@@ -78,7 +78,7 @@
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
 
   .service__card {
@@ -162,14 +162,12 @@
     padding: 10px 0px 0px 0px;
   }
 
-
   .procedure__card {
     border-bottom: 2px solid #cecece;
- 
+
     height: 100%;
     &:hover {
       cursor: pointer;
-      
     }
     &-number {
       font-size: 54px;
@@ -252,7 +250,7 @@
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
 
   &__card {
@@ -309,7 +307,7 @@
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
   background-color: #221d42;
   &__card {
@@ -377,8 +375,8 @@
 .join-us {
   background-color: $primary;
   margin-top: 200px;
-  
-  @media only screen and (min-width:1300px) {
+
+  @media only screen and (min-width: 1300px) {
     margin-top: 300px;
   }
   @media only screen and (max-width: 767px) {
@@ -393,8 +391,8 @@
     @media only screen and (max-width: 768px) {
       display: flex;
       flex-direction: column;
-      justify-content:center;
-      align-items:center;
+      justify-content: center;
+      align-items: center;
     }
   }
   .join-img {
@@ -471,10 +469,10 @@
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
   @media only screen and (max-width: 570px) {
-    padding: 60px 15px;
+    padding: 60px 10px;
   }
   &-content {
     background-color: white;
@@ -483,7 +481,7 @@
     @media only screen and (max-width: 768px) {
       border-radius: 18px;
     }
-   
+
     &-text {
       padding: 50px 55px;
       @media only screen and (min-width: 1700px) {
@@ -507,101 +505,96 @@
     letter-spacing: 1.54px;
     line-height: 41px;
     @media only screen and (max-width: 768px) {
-     font-size: 14px;
-     line-height: 16px;
-     letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 1px;
     }
   }
 }
-.portal-img{
+.portal-img {
   position: relative;
   overflow: hidden;
-  @media only screen and (min-width:1500px){
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  @media only screen and (min-width: 1500px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
-.portal-img img{
+.portal-img img {
   position: absolute;
   bottom: 0px;
   right: 0;
   height: 100%;
   width: auto;
-  @media only screen and (min-width:1500px){
+  @media only screen and (min-width: 1500px) {
     position: relative;
     height: 450px;
   }
-  @media only screen and (max-width:1300px){
-   height: 400px;
-   bottom: 100px;
-   right: 10px;
+  @media only screen and (max-width: 1300px) {
+    height: 400px;
+    bottom: 100px;
+    right: 10px;
   }
-  @media only screen and (max-width:1100px){
+  @media only screen and (max-width: 1100px) {
     height: 300px;
     bottom: 100px;
     right: 10px;
-   }
-  @media only screen and (max-width:991px){
+  }
+  @media only screen and (max-width: 991px) {
     display: none;
   }
 }
 
-
 // portfoilio
-.portfolio-row .portfolio__card-link{
+.portfolio-row .portfolio__card-link {
   text-decoration: none;
   color: inherit !important;
 }
-.portfolio-row .portfolio-col:nth-child(even){
+.portfolio-row .portfolio-col:nth-child(even) {
   margin-top: 80px !important;
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     margin-top: 0px !important;
   }
 }
-.portfolio-col{
-  @media only screen and (max-width:767px){
+.portfolio-col {
+  @media only screen and (max-width: 767px) {
     margin-bottom: 20px !important;
   }
 }
-.portfolio{
+.portfolio {
   padding: 80px 0px;
   @media only screen and (min-width: 1700px) {
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
   @media only screen and (max-width: 570px) {
-    padding: 60px 15px;
+    padding: 60px 10px;
   }
 
-
-
-  &__card{
-    &:hover{
+  &__card {
+    &:hover {
       box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px;
-
     }
-   
-    &:hover{
+
+    &:hover {
       color: inherit !important;
-
     }
-    &-text{
+    &-text {
       padding: 20px 10px;
-      h1{
-       font-size: 24px;
-       font-weight: 600;
-       color: #161515;
-       @media only screen and (max-width:991px){
-        font-size: 20px;
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #161515;
+        @media only screen and (max-width: 991px) {
+          font-size: 20px;
+        }
+        @media only screen and (max-width: 767px) {
+          font-size: 18px;
+        }
       }
-      @media only screen and (max-width:767px){
-        font-size: 18px;
-      }
-      } 
-      p{
+      p {
         font-size: 16px;
         font-weight: 400;
         display: -webkit-box;
@@ -609,15 +602,14 @@
         -webkit-line-clamp: 2;
         overflow: hidden;
         text-overflow: ellipsis;
-        @media only screen and (max-width:991px){
+        @media only screen and (max-width: 991px) {
           font-size: 14px;
         }
-      
       }
     }
   }
 }
-.portfolio__card{
+.portfolio__card {
   position: relative;
   overflow: hidden;
 }
@@ -636,12 +628,12 @@
   width: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: .3s linear;
+  transition: 0.3s linear;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.overlay-bg p{
+.overlay-bg p {
   font-size: 20px;
   font-weight: 500;
   color: white;
@@ -651,12 +643,12 @@
 .overlay-bg::before,
 .overlay-bg::after {
   left: 50%;
-  content: '';
+  content: "";
   width: 200%;
   margin-left: -100%;
-  background: rgba(0, 0, 0, .45);
+  background: rgba(0, 0, 0, 0.45);
   transform: skewX(-30deg) translateX(-100%);
-  transition: transform .3s linear .3s;
+  transition: transform 0.3s linear 0.3s;
 }
 .portfolio__card:hover .overlay-bg {
   opacity: 1;
@@ -664,28 +656,27 @@
 }
 .portfolio__card:hover .overlay-bg::before {
   transform: skewX(-30deg) translateX(0);
-  transition: transform .3s linear;
+  transition: transform 0.3s linear;
 }
 .portfolio__card:hover .overlay-bg::after {
   transform: skewX(-30deg) translateX(0);
-  transition: transform .3s linear .15s;
+  transition: transform 0.3s linear 0.15s;
 }
 
-
 // 4 reasons
-.reasons{
+.reasons {
   padding: 80px 0px;
   @media only screen and (min-width: 1700px) {
     padding: 100px 0px;
   }
   @media only screen and (max-width: 768px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
   @media only screen and (max-width: 570px) {
-    padding: 60px 0px;
+    padding: 60px 10px;
   }
 }
-.icon-72px{
+.icon-72px {
   height: 80px;
   @media only screen and (max-width: 768px) {
     height: 60px;
@@ -693,116 +684,114 @@
 }
 
 .scroll-card {
-    width: 100%;
-    height: auto;
-    // min-height: 424px;
-    // transform-origin: 50% 0;
-    background-color: #fff;
-    border-radius: 1.5rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 32px;
-    display: flex;
-    position: -webkit-sticky;
-    position: sticky;
-    // top: 200px
-    @media only screen and (max-width:767px){
-      padding:30px 15px;
-    }
+  width: 100%;
+  height: auto;
+  // min-height: 424px;
+  // transform-origin: 50% 0;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  // top: 200px
+  @media only screen and (max-width: 767px) {
+    padding: 30px 15px;
+  }
 }
 
-.teams_card-heading{
+.teams_card-heading {
   font-size: 24px;
   font-weight: 600;
   color: white;
-  @media only screen and (max-width:991px){
-   font-size: 20px;
- }
- @media only screen and (max-width:767px){
-   font-size: 18px;
- }
- }
- .teams_body{
-   font-size: 16px;
-   font-weight: 400;
-   text-align: center;
-   color: white;
-   @media only screen and (max-width:991px){
-     font-size: 14px;
-   }
+  @media only screen and (max-width: 991px) {
+    font-size: 20px;
   }
+  @media only screen and (max-width: 767px) {
+    font-size: 18px;
+  }
+}
+.teams_body {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  @media only screen and (max-width: 991px) {
+    font-size: 14px;
+  }
+}
 .scroll-card._0 {
   top: 110px;
-  padding: 0px ;
+  padding: 0px;
   border: none;
   text-align: center;
-  justify-content: center;align-items: center;
-  @media only screen and (min-width:1700px){
+  justify-content: center;
+  align-items: center;
+  @media only screen and (min-width: 1700px) {
     top: 140px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     top: 90px;
   }
 }
 .scroll-card._1 {
   top: 180px;
-  @media only screen and (min-width:1700px){
+  @media only screen and (min-width: 1700px) {
     top: 220px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     top: 140px;
   }
-  
 }
 .scroll-card._2 {
   top: 210px;
-  @media only screen and (min-width:1700px){
+  @media only screen and (min-width: 1700px) {
     top: 240px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     top: 150px;
   }
 }
 
 .scroll-card._3 {
   top: 240px;
-  @media only screen and (min-width:1700px){
+  @media only screen and (min-width: 1700px) {
     top: 260px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     top: 160px;
   }
 }
 
 .scroll-card._4 {
   top: 270px;
-  @media only screen and (min-width:1700px){
+  @media only screen and (min-width: 1700px) {
     top: 280px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     top: 170px;
   }
 }
 
 .scroll-card._5 {
   top: 300px;
-  height:600px;
+  height: 600px;
   background-color: transparent;
   border: none;
-  @media only screen and (min-width:1700px){
-   height: 0px;
+  @media only screen and (min-width: 1700px) {
+    height: 0px;
   }
-  @media only screen and (max-width:767px){
+  @media only screen and (max-width: 767px) {
     height: 300px;
   }
 }
 
-.mb-80{
+.mb-80 {
   margin-bottom: 80px !important;
 }
-
-
 
 // .card-content-wrapper {
 //     grid-column-gap: 2rem;
@@ -831,14 +820,14 @@
 // }
 
 .sticky-wrapper {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    overflow: hidden
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
 
 // .card-paragraph {
@@ -899,19 +888,13 @@
 // }
 
 .teams_features-right {
-    width: 100%;
-    // max-width: 585px;
-    grid-column-gap: 3rem;
-    grid-row-gap: 4rem;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
-    position: relative
+  width: 100%;
+  // max-width: 585px;
+  grid-column-gap: 3rem;
+  grid-row-gap: 4rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  position: relative;
 }
-
-
-
-
-
-

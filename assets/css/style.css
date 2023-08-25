@@ -707,7 +707,7 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .services {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   .services .service__card {
     padding: 20px;
     border-radius: 6px;
@@ -853,7 +853,7 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .qualties {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   .qualties__card {
     display: flex;
     flex-direction: column;
@@ -904,7 +904,7 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .graphic-process {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   .graphic-process__card {
     border: 3px solid white;
     background-color: white;
@@ -1037,10 +1037,10 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .client-portal {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   @media only screen and (max-width: 570px) {
     .client-portal {
-      padding: 60px 15px; } }
+      padding: 60px 10px; } }
   .client-portal-content {
     background-color: white;
     border: 1px solid #221d42;
@@ -1128,10 +1128,10 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .portfolio {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   @media only screen and (max-width: 570px) {
     .portfolio {
-      padding: 60px 15px; } }
+      padding: 60px 10px; } }
   .portfolio__card:hover {
     box-shadow: rgba(238, 236, 236, 0.24) 0px 3px 8px; }
   .portfolio__card:hover {
@@ -1179,7 +1179,7 @@ body {
   width: 100%;
   opacity: 0;
   visibility: hidden;
-  transition: .3s linear;
+  transition: 0.3s linear;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -1194,12 +1194,12 @@ body {
 .overlay-bg::before,
 .overlay-bg::after {
   left: 50%;
-  content: '';
+  content: "";
   width: 200%;
   margin-left: -100%;
   background: rgba(0, 0, 0, 0.45);
   transform: skewX(-30deg) translateX(-100%);
-  transition: transform .3s linear .3s; }
+  transition: transform 0.3s linear 0.3s; }
 
 .portfolio__card:hover .overlay-bg {
   opacity: 1;
@@ -1207,11 +1207,11 @@ body {
 
 .portfolio__card:hover .overlay-bg::before {
   transform: skewX(-30deg) translateX(0);
-  transition: transform .3s linear; }
+  transition: transform 0.3s linear; }
 
 .portfolio__card:hover .overlay-bg::after {
   transform: skewX(-30deg) translateX(0);
-  transition: transform .3s linear .15s; }
+  transition: transform 0.3s linear 0.15s; }
 
 .reasons {
   padding: 80px 0px; }
@@ -1220,10 +1220,10 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .reasons {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
   @media only screen and (max-width: 570px) {
     .reasons {
-      padding: 60px 0px; } }
+      padding: 60px 10px; } }
 
 .icon-72px {
   height: 80px; }
