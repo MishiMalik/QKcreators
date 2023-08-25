@@ -377,6 +377,10 @@
 .join-us {
   background-color: $primary;
   margin-top: 200px;
+  
+  @media only screen and (min-width:1300px) {
+    margin-top: 300px;
+  }
   @media only screen and (max-width: 767px) {
     margin-top: 0px;
   }
@@ -384,8 +388,8 @@
     margin-top: 100px;
   }
   .join-us-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .join-img {
     position: relative;
