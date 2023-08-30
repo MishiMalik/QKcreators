@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- General Sans Fonts -->
+  <link rel="preload" href="assets/fonts/General-sans/GS.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Bootstrap5 -->
+  <link rel="stylesheet" href="assets/bootstrap5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- owl carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Get Quote - QK Creators</title>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NTCF7T2H');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTCF7T2H" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light header-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/Group 91.svg" alt="" class="navbar-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active-nav" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item nav-btn--item">
+              <a class="nav-btn-white" href="get-quote.html">Get a Quote</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+      <!-- hero section -->
+      <section class="request-header mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto quote-text-box">
+                    <h1 class="f-35 w-500 text-white  text-center">
+                        Request a Quote
+                      </h1>
+                      <p class="f-20 mt-lg-4 mt-3 w-400 text-white  text-center">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.                      </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="get-quote ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto ">
+                    <form class="row get-quote-form">
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="exampleInputname1" class="form-label input-label">Your name <b>*</b></label>
+                                <input type="text" class="form-control input" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Enter your name" required>
+                              </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="exampleInputEmail1" class="form-label input-label">Your emai <b>*</b></label>
+                                <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required>
+                              </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="phone-number" class="form-label input-label">Your phone number <b>*</b></label>
+                                <input type="text" class="form-control input" id="phone-number" aria-describedby="phone" placeholder="+92 123 1234127" required>
+                              </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="request-title" class="form-label input-label">Request title <b>*</b></label>
+                                <input type="text" class="form-control input" id="request-title" aria-describedby="request" placeholder="Example: Software Application, Admin/User Portals..." required>
+                              </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="deadline" class="form-label input-label">Deadline <span>(Optional)</span></label>
+                                <input type="date" class="form-control input" id="deadline" aria-describedby="phone">
+                              </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="mb-4 pb-2">
+                                <label for="budget" class="form-label input-label">Budget <span>(Optional)</span></label>
+                                <input type="text" class="form-control input" id="budget" aria-describedby="budget" placeholder="Estimated budget in $">
+                              </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="mb-4 pb-2">
+                                <label for="budget" class="form-label input-label">Requirments</label>
+                                <textarea name="" id=""   rows="6" class="w-100 form-control input" placeholder="Enter your project requirements"></textarea>
+                              </div>
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center mt-4 ">
+                            <div class="mx-auto">
+                                <a class="fill-btn" href="get-quote.html">Request a Quote</a>
+                              </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- join us -->
+
+    <section class="join-us  mt-5">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-lg-12 join-us-text">
+            <h1 class="f-35 w-400 text-dark text-white text-lg-start text-center no-br" style="font-style: italic;">
+              We invite you to join us
+            </h1>
+            <h1 class="f-35 w-400 text-dark text-white text-lg-start text-center no-br" style="font-style: italic;">
+              <span class="w-600">on this exciting journey of innovation and
+                creativity.</span>
+            </h1>
+            <div class="mt-lg-5 mt-4 mx-md-0">
+              <a href="get-quote.html" class="fill-btn-white " data-aos="zoom-in" data-aos-duration="600">Get Started</a>
+            </div>
+          </div>
+          <!-- <div class="col-lg-6 ">
+            <div class="join-img d-sm-block d-none">
+              <img src="assets/images/Mask Group 36.png" alt="" class="img-fluid d-lg-block d-none">
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-3 col-lg-3 col-md-6">
+          <div class="logo-div">
+            <img src="assets/images/footer-logo.png" alt="" class="footer-logo">
+          </div>
+          <p class="mt-5 mb-2 footer-links"><a href="mailto:info@qkcreators.com"
+              class="f-24 w-400 text-white no-decoration">info@qkcreators.com</a></p>
+          <p class="footer-links"><a href="" class="f-24 w-400 text-white no-decoration">+92 134 456789</a></p>
+        </div>
+        <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-6 footer-links">
+          <h3 class="f-20 w-600 text-white mb-lg-5 mb-3 mt-lg-0 mt-4">Services</h3>
+          <p><a href="#web-development" class="f-16 w-400 text-white no-decoration hover-primary">Web Developemnt</a></p>
+          <p><a href="#mobile-development" class="f-16 w-400 text-white no-decoration hover-primary">Mobile&nbsp;App&nbsp;Development</a>
+          </p>
+          <p><a href="#graphic-design" class="f-16 w-400 text-white no-decoration hover-primary">Graphic Design</a></p>
+        </div>
+
+        <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-6 footer-links">
+          <h3 class="f-20 w-600 text-white mb-lg-5 mb-3 mt-lg-0 mt-4">Company</h3>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">About</a></p>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">Terms</a></p>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">Privacy Policy</a></p>
+        </div>
+
+        <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-6 footer-links">
+          <h3 class="f-20 w-600 text-white mb-lg-5 mb-3 mt-lg-0 mt-4">More</h3>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">Documentation</a></p>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">License</a></p>
+          <p><a  class="f-16 w-400 text-white no-decoration hover-primary">Charging</a></p>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="border-top mt-5">
+      <div class="container">
+        <div class="row footer-terms ">
+          <div class="col-lg-8">
+            <div class="terms-list">
+              <a  class="border-right pe-3">Privacy Policy</a>
+              <a  class="border-right px-3">Terms of Service</a>
+              <a  class="px-3">© 2023 QK Creators. All Rights Reserved.</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="terms-list w-100 d-flex justify-content-lg-end justify-content-center mt-lg-0 mt-4 flex-row">
+              <a href="" class=" ps-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11.201" height="20.479" viewBox="0 0 11.201 20.479">
+                  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f"
+                    d="M11.609,11.238l.555-3.616H8.695V5.276a1.808,1.808,0,0,1,2.039-1.953h1.577V.244A19.236,19.236,0,0,0,9.511,0C6.653,0,4.786,1.732,4.786,4.867V7.623H1.609v3.616H4.786v8.741H8.695V11.238Z"
+                    transform="translate(-1.359 0.25)" fill="#fff" stroke="#000" stroke-width="0.5" opacity="0.8" />
+                </svg>
+              </a>
+              <a href="" class=" ps-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24.199" height="19.979" viewBox="0 0 24.199 19.979">
+                  <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube"
+                    d="M24.743,7.626A3.353,3.353,0,0,0,22.6,5.1c-1.887-.6-9.454-.6-9.454-.6s-7.567,0-9.454.6A3.353,3.353,0,0,0,1.556,7.626,43.844,43.844,0,0,0,1.05,14.51a43.844,43.844,0,0,0,.506,6.884A3.291,3.291,0,0,0,3.7,23.882c1.887.6,9.454.6,9.454.6s7.567,0,9.454-.6a3.291,3.291,0,0,0,2.139-2.488,43.844,43.844,0,0,0,.506-6.884,43.845,43.845,0,0,0-.506-6.884ZM10.674,18.735v-8.45L17,14.51l-6.325,4.225Z"
+                    transform="translate(-1.05 -4.5)" fill="#fff" opacity="0.8" />
+                </svg>
+
+              </a>
+              <a href="" class="ps-3 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19.98" height="19.979" viewBox="0 0 19.98 19.979">
+                  <path id="Icon_simple-linkedin" data-name="Icon simple-linkedin"
+                    d="M17.022,17.026H14.064V12.39c0-1.106-.022-2.528-1.542-2.528-1.543,0-1.778,1.2-1.778,2.447v4.718H7.785V7.492h2.842v1.3h.038a3.118,3.118,0,0,1,2.806-1.54c3,0,3.552,1.973,3.552,4.541v5.233ZM4.443,6.188A1.718,1.718,0,1,1,6.161,4.469,1.717,1.717,0,0,1,4.443,6.188ZM5.927,17.026H2.96V7.492H5.927ZM18.5,0H1.474A1.457,1.457,0,0,0,0,1.439v17.1a1.456,1.456,0,0,0,1.474,1.439H18.5a1.462,1.462,0,0,0,1.48-1.439V1.439A1.462,1.462,0,0,0,18.5,0Z"
+                    fill="#fff" opacity="0.8" />
+                </svg>
+              </a>
+
+              <a href="" class="ps-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20.18" height="20.179" viewBox="0 0 20.18 20.179">
+                  <path id="Icon_simple-instagram" data-name="Icon simple-instagram"
+                    d="M9.99,0C7.276,0,6.937.012,5.872.06A7.367,7.367,0,0,0,3.447.524a4.892,4.892,0,0,0-1.77,1.152A4.874,4.874,0,0,0,.524,3.446,7.344,7.344,0,0,0,.06,5.871C.01,6.937,0,7.276,0,9.99s.012,3.053.06,4.118a7.37,7.37,0,0,0,.465,2.425A4.9,4.9,0,0,0,1.677,18.3a4.885,4.885,0,0,0,1.77,1.152,7.376,7.376,0,0,0,2.425.465c1.066.05,1.4.06,4.118.06s3.053-.012,4.118-.06a7.393,7.393,0,0,0,2.425-.465,5.105,5.105,0,0,0,2.922-2.922,7.371,7.371,0,0,0,.465-2.425c.05-1.066.06-1.4.06-4.118s-.012-3.053-.06-4.118a7.388,7.388,0,0,0-.465-2.425A4.9,4.9,0,0,0,18.3,1.677,4.868,4.868,0,0,0,16.534.524,7.35,7.35,0,0,0,14.109.06C13.043.01,12.7,0,9.99,0Zm0,1.8c2.667,0,2.985.013,4.038.059a5.5,5.5,0,0,1,1.854.345,3.288,3.288,0,0,1,1.9,1.9,5.515,5.515,0,0,1,.344,1.854c.047,1.054.058,1.37.058,4.038s-.012,2.984-.062,4.038a5.622,5.622,0,0,1-.35,1.854,3.172,3.172,0,0,1-.748,1.15,3.117,3.117,0,0,1-1.149.746,5.557,5.557,0,0,1-1.861.344c-1.061.047-1.373.058-4.045.058s-2.985-.012-4.045-.062a5.665,5.665,0,0,1-1.862-.35,3.094,3.094,0,0,1-1.148-.748,3.033,3.033,0,0,1-.749-1.149,5.669,5.669,0,0,1-.35-1.861c-.037-1.049-.051-1.373-.051-4.033s.013-2.985.051-4.047a5.663,5.663,0,0,1,.35-1.86,2.961,2.961,0,0,1,.749-1.15,2.955,2.955,0,0,1,1.148-.748,5.53,5.53,0,0,1,1.849-.35c1.061-.037,1.374-.05,4.045-.05L9.99,1.8Zm0,3.062a5.13,5.13,0,1,0,5.13,5.13A5.129,5.129,0,0,0,9.99,4.86Zm0,8.46a3.33,3.33,0,1,1,3.33-3.33A3.329,3.329,0,0,1,9.99,13.32Zm6.532-8.662a1.2,1.2,0,1,1-1.2-1.2A1.2,1.2,0,0,1,16.522,4.658Z"
+                    transform="translate(0.1 0.1)" fill="#fff" stroke="#000" stroke-width="0.2" opacity="0.8" />
+                </svg>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Jquery -->
+  <script src="assets/Js/jquery.js"></script>
+  <!-- Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"
+    integrity="sha512-nnzkI2u2Dy6HMnzMIkh7CPd1KX445z38XIu4jG1jGw7x5tSL3VBjE44dY4ihMU1ijAQV930SPM12cCFrB18sVw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- bootstrap5 -->
+  <script src="assets/bootstrap5/js/bootstrap.min.js"></script>
+  <!-- owl carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- masonry -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script> -->
+  <!-- app js -->
+  <script src="assets/Js/app.js"></script>
+
+  </script>
+  <script>
+
+    //   window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      // once: true,
+      // mirror: false
+    })
+//   });
+  </script>
+  <script>
+    /*! Magnific Popup - v1.1.0 - 2016-02-20 */
+    jQuery(document).ready(function (jQuery) {
+
+      function loop() {
+        jQuery('.services-left').each(function () {
+          const current = jQuery(this).children('.active-project').removeClass('active-project');
+          const i = current.next().length ? current.index() : 0;
+          const nextElement = current.siblings(':eq(' + i + ')');
+          nextElement.addClass('active-project');
+
+          // Trigger mouseenter event on .services-left when active-project class is added
+          if (nextElement.hasClass('active-project')) {
+            jQuery(this).children('a').trigger('mouseenter');
+          }
+        });
+      }
+
+      setInterval(loop, 1500);
+    });
+  </script>
+</body>
+
+</html>

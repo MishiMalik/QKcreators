@@ -19,6 +19,27 @@
   }
 }
 
+.nav-btn-white{
+  padding: 14px 22px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: $primary !important;
+  text-decoration: none;
+  box-shadow: none;
+  transition: all 0.5s;
+  &:hover {
+    box-shadow: 0px 9px 14px #ff33818f;
+    color: $primary !important;
+  }
+  @media only screen and (max-width: 500px) {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
 // ================================================Fill button
 .fill-btn {
   padding: 14px 30px;

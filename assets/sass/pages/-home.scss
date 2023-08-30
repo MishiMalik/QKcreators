@@ -55,6 +55,7 @@
   // }
 }
 
+// =================================logo section
 .logos-section {
   background-color: $primary;
   padding: 16px 0px;
@@ -71,6 +72,8 @@
   }
 }
 
+
+// ===================================services
 .services {
   padding: 80px 0px;
   background-color: #fff3f8;
@@ -153,6 +156,8 @@
   }
 }
 
+
+// ================================mobile development
 .procedure {
   padding: 30px 0px 0px 0px;
   @media only screen and (min-width: 1700px) {
@@ -203,6 +208,7 @@
   }
 }
 
+// ===================================================details
 .procedure-details {
   padding: 80px 0px 70px 0px !important;
 
@@ -301,6 +307,8 @@
   }
 }
 
+
+// ============================================================graphic design
 .graphic-process {
   padding: 80px 0px;
   @media only screen and (min-width: 1700px) {
@@ -372,19 +380,11 @@
   text-decoration: none;
 }
 
+
+// =========================================================join us
 .join-us {
   background-color: $primary;
-  // margin-top: 200px;
 
-  // @media only screen and (min-width: 1300px) {
-  //   margin-top: 300px;
-  // }
-  // @media only screen and (max-width: 767px) {
-  //   margin-top: 0px;
-  // }
-  // @media only screen and (max-width: 1200px) {
-  //   margin-top: 100px;
-  // }
   .join-us-text {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -558,7 +558,6 @@
   }
 }
 .portfolio-col {
- 
   @media only screen and (max-width: 767px) {
     margin-bottom: 20px !important;
   }
@@ -612,7 +611,7 @@
     }
   }
 }
-.portfolio__card{
+.portfolio__card {
   position: relative;
   overflow: hidden;
 }

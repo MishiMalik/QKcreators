@@ -2,8 +2,10 @@
 $(window).scroll(function () {
   if ($(this).scrollTop() > 88) {
     $(".navbar").css('box-shadow','0 3px 2px -2px rgba(0, 0, 0, 0.2)');
+    $(".navbar.header-nav").css('background-color','white');
   } else {
     $(".navbar").css('box-shadow','none');
+    $(".navbar.header-nav").css('background-color','#FF3381');
   }
 });
 
