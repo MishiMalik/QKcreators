@@ -112,7 +112,10 @@ class DropZone {
     $receiver.removeClass('receiver').addClass('has-image');
 
     // Add new .receiver
-    $('<input type="file" class="receiver">').prependTo(this.dropZone);
+    $('<input type="file" class="receiver" multiple>').prependTo(this.dropZone);
+
+    // Event delegation for remove clicks
+    this.dropZone.on('click', '.preview .remove', this.onRemove.bind(this));
 
     // Preview
     const files = $receiver[0].files;
@@ -127,6 +130,23 @@ class DropZone {
         this.template(url).appendTo(this.dropZone);
       };
       reader.readAsDataURL(file);
+    }
+  }
+
+  onRemove(e) {
+    // Get the parent .preview element
+    const $preview = $(e.target).closest('.preview');
+
+    // Find the associated input element
+    const $input = $preview.find('.has-image');
+
+    // Remove both the .preview and .has-image elements
+    $preview.remove();
+    $input.remove();
+
+    // Check if there are no more images, and remove the "has-images" class
+    if (this.dropZone.find('.preview').length === 0) {
+      this.dropZone.removeClass('has-images');
     }
   }
 

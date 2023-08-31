@@ -41,7 +41,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light header-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark header-nav">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/images/Group 91.svg" alt="" class="navbar-logo">
@@ -97,58 +97,60 @@
                 <div class="col-xl-9 col-lg-10 mx-auto ">
                     <form class="row get-quote-form">
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="exampleInputname1" class="form-label input-label">Your name <b>*</b></label>
                                 <input type="text" class="form-control input" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Enter your name" required>
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="exampleInputEmail1" class="form-label input-label">Your emai <b>*</b></label>
                                 <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required>
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="phone-number" class="form-label input-label">Your phone number <b>*</b></label>
-                                <input type="text" class="form-control input" id="phone-number" aria-describedby="phone" placeholder="+92 123 1234127" required>
+                                <input type="text" class="form-control input" id="phone-number" aria-describedby="phone" placeholder="+92 123 1234127" required onkeyup="if (/[^0-9+]/g.test(this.value)) this.value = this.value.replace(/[^0-9+]/g,'')">
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="request-title" class="form-label input-label">Request title <b>*</b></label>
                                 <input type="text" class="form-control input" id="request-title" aria-describedby="request" placeholder="Example: Software Application, Admin/User Portals..." required>
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="deadline" class="form-label input-label">Deadline <span>(Optional)</span></label>
                                 <input type="date" class="form-control input" id="deadline" aria-describedby="phone">
                               </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="budget" class="form-label input-label">Budget <span>(Optional)</span></label>
-                                <input type="text" class="form-control input" id="budget" aria-describedby="budget" placeholder="Estimated budget in $">
+                                <input type="text" class="form-control input" id="budget" aria-describedby="budget" placeholder="Estimated budget in $" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')">
                               </div>
                         </div>
                         <div class="col-lg-12">
-                          <div class="mb-4 pb-2">
+                          <div class="mb-lg-4 mb-3 pb-2">
                             <label for="budget" class="form-label input-label">Attachments</label>
                               <div class="drop-zone">
-                                <input type="file" class="receiver"/>
-                                  <div class="msg">Drag file here or click the button below</div>
-                                  <!-- <a class="fill-btn msg">Request a Quote</a> -->
+                                <input type="file" class="receiver" multiple/>
+                                  <div class="msg">
+                                    <p class="mb-0 pb-0">Drag file here or click the button below <br><br> <a class="fill-btn ">Request a Quote</a></p>
+                                    
+                                  </div>
                               </div>
                           </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="mb-4 pb-2">
+                            <div class="mb-lg-4 mb-3 pb-2">
                                 <label for="budget" class="form-label input-label">Requirments</label>
                                 <textarea name="" id=""   rows="6" class="w-100 form-control input" placeholder="Enter your project requirements"></textarea>
                               </div>
                         </div>
-                        <div class="col-lg-12 d-flex justify-content-center mt-4 ">
+                        <div class="col-lg-12 d-flex justify-content-center mt-lg-4 mt-1">
                             <div class="mx-auto">
                                 <a class="fill-btn" href="get-quote.html">Request a Quote</a>
                               </div>
