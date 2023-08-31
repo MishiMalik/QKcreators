@@ -1570,3 +1570,79 @@ body {
     @media only screen and (max-width: 500px) {
       .msg .fill-btn {
         margin-top: 10px; } }
+
+.about-hero {
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .about-hero {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .about-hero {
+      padding: 60px 10px; } }
+
+.expertise {
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .expertise {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .expertise {
+      padding: 60px 10px; } }
+  .expertise__text {
+    padding: 30px 50px; }
+    @media only screen and (max-width: 1300px) {
+      .expertise__text {
+        padding: 20px 10px; } }
+  .expertise__img {
+    height: 550px;
+    width: auto; }
+    @media only screen and (max-width: 768px) {
+      .expertise__img {
+        height: auto; } }
+
+.promise {
+  padding: 80px 0px;
+  background-image: url("/assets/images/Group 197@2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 1700px) {
+    .promise {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .promise {
+      padding: 60px 10px; } }
+  .promise-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px 40px; }
+    .promise-card img {
+      margin: 0px 0px 25px 0px;
+      height: 80px;
+      width: auto; }
+    .promise-card h1 {
+      font-size: 20px;
+      font-weight: 600;
+      color: black;
+      letter-spacing: 0.53px;
+      text-align: center; }
+    .promise-card p {
+      color: #8e8c95;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center; }
+
+.message {
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .message {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .message {
+      padding: 60px 10px; } }
+  .message img {
+    max-height: 500px; }
+  .message h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF3381; }
