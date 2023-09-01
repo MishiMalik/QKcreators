@@ -488,7 +488,7 @@
     }
 
     &-text {
-      padding: 50px 55px;
+      padding: 50px 50px;
       @media only screen and (min-width: 1700px) {
         padding: 70px 70px;
       }
@@ -519,18 +519,41 @@
 .portal-img {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  @media only screen and (min-width: 1700px) {
+    padding: 70px 70px;
+  }
+  @media only screen and (max-width: 1200px) {
+    padding: 40px 40px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 20px 20px;
+  }
+  @media only screen and (max-width: 570px) {
+    padding: 20px 10px;
+    padding-top: 0px;
+  }
   @media only screen and (min-width: 1500px) {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-.portal-img img {
+.portal-img .tab-img{
+  position: relative;
+  z-index: 2;
+  max-height: 400px;
+}
+.portal-img .arrow-img {
   position: absolute;
   bottom: 0px;
   right: 0;
   height: 100%;
   width: auto;
+  z-index: 1;
   @media only screen and (min-width: 1500px) {
     position: relative;
     height: 450px;

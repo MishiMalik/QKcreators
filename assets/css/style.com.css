@@ -1109,28 +1109,34 @@ body {
       justify-content: center;
       align-items: center; } }
 
-.portal-img img {
+.portal-img .tab-img {
+  position: relative;
+  z-index: 2;
+  height: 400px; }
+
+.portal-img .arrow-img {
   position: absolute;
   bottom: 0px;
   right: 0;
   height: 100%;
-  width: auto; }
+  width: auto;
+  z-index: 1; }
   @media only screen and (min-width: 1500px) {
-    .portal-img img {
+    .portal-img .arrow-img {
       position: relative;
       height: 450px; } }
   @media only screen and (max-width: 1300px) {
-    .portal-img img {
+    .portal-img .arrow-img {
       height: 400px;
       bottom: 100px;
       right: 10px; } }
   @media only screen and (max-width: 1100px) {
-    .portal-img img {
+    .portal-img .arrow-img {
       height: 300px;
       bottom: 100px;
       right: 10px; } }
   @media only screen and (max-width: 991px) {
-    .portal-img img {
+    .portal-img .arrow-img {
       display: none; } }
 
 .portfolio-row .portfolio__card-link {
