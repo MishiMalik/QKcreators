@@ -579,13 +579,14 @@
   text-decoration: none;
   color: inherit !important;
 }
-.portfolio-row .portfolio-col:nth-child(even) {
+.portfolio-row .portfolio-col:first-child {
   margin-top: 60px !important;
   @media only screen and (max-width: 767px) {
     margin-top: 0px !important;
   }
 }
 .portfolio-col {
+  margin-bottom: 40px !important;
   @media only screen and (max-width: 767px) {
     margin-bottom: 20px !important;
   }

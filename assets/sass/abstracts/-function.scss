@@ -1,68 +1,190 @@
 // =========================================make images responsive
 /* ================================================================product card images */
 
-.portfolio__card-img {
-    position: relative;
-    display: block;
-    flex: 1 0 100%;
-    // width: 100%;
-    // height: 100%;
-    overflow: hidden;
-    object-fit: contain;
-    /* transition: all 200ms ease-out; */
-    box-sizing: border-box;
-    white-space: normal;
-    background-color: #ccccccad;
-    border: 1px solid #ccc;
-  }
+// .portfolio__card-img {
+//     position: relative;
+//     display: block;
+//     flex: 1 0 100%;
+//     // width: 100%;
+//     // height: 100%;
+//     overflow: hidden;
+//     object-fit: contain;
+//     /* transition: all 200ms ease-out; */
+//     box-sizing: border-box;
+//     white-space: normal;
+//     background-color: #ccccccad;
+//     border: 1px solid #ccc;
+//   }
   
-  .portfolio__card-img figure {
-    display: flex;
-    margin: 0;
+//   .portfolio__card-img figure {
+//     display: flex;
+//     margin: 0;
     
-  }
+//   }
   
-  @media only screen and (max-width: 7479px) {
-    .portfolio__card-img figure {
-      justify-content: center;
-      align-items: center;
-    }
-  }
+//   @media only screen and (max-width: 7479px) {
+//     .portfolio__card-img figure {
+//       justify-content: center;
+//       align-items: center;
+//     }
+//   }
   
-  .portfolio__card-img div {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+//   .portfolio__card-img div {
+//     width: 100%;
+//     position: relative;
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
   
-  .portfolio__card-img div:before {
-    display: block;
-    content: '';
-    padding-top: 100%;
-  }
+//   .portfolio__card-img div:before {
+//     display: block;
+//     content: '';
+//     padding-top: 100%;
+//   }
   
-  .portfolio__card-img div > img {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    // width: 100%;
-    // height: 100%;
-    object-fit: contain;
-  }
+//   .portfolio__card-img div > img {
+//     // position: absolute;
+//     // top: 0;
+//     // left: 0;
+//     // right: 0;
+//     // bottom: 0;
+//     // width: 100%;
+//     // height: 100%;
+//     object-fit: contain;
+//   }
   
-  @media only screen and (max-width: 7479px) {
-    .portfolio__card-img div {
-      width: 100%;
-    }
-  }
+//   @media only screen and (max-width: 7479px) {
+//     .portfolio__card-img div {
+//       width: 100%;
+//     }
+//   }
   
-  .portfolio__card-img img {
-    display: block;
-    flex: 1 1 auto;
-    object-fit: cover;
-  }
+//   .portfolio__card-img img {
+//     display: block;
+//     flex: 1 1 auto;
+//     object-fit: cover;
+//   }
+
+
+
+
+// @mixin aspect-ratio($width, $height) {
+//   position: relative;
+
+//   &:before {
+//       display: block;
+//       content: "";
+//       //   width: 100%;
+//       padding-top: ($height / $width) * 100%;
+//   }
+
+//   >img {
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       bottom: 0;
+//       width: 100%;
+//       height: 100%;
+//   }
+// }
+
+
+
+// .carousel__slide-1 {
+//   position: relative;
+//   display: block;
+//   flex: 1 0 100%;
+//   width: 100%;
+//   height: width;
+//   overflow: hidden;
+//   transition: all 200ms ease-out;
+//   box-sizing: border-box;
+//   white-space: normal;
+
+
+//   figure {
+//       display: flex;
+//       margin: 0;
+
+//       @media only screen and (max-width: 7479px) {
+//           justify-content: center;
+//       }
+//   }
+
+//   div {
+//       width: 100%;
+//       @include aspect-ratio(4, 5);
+//       overflow: hidden;
+
+//       @media only screen and (max-width: 7479px) {
+//           width: 100%;
+//       }
+//   }
+
+//   img {
+//       display: block;
+//       flex: 1 1 auto;
+//       object-fit: cover;
+//   }
+
+//   .credit {
+//       margin-top: 1rem;
+//       color: rgba(0, 0, 0, 0.5);
+//       display: block;
+//   }
+
+//   &.scrollable {
+//       overflow-y: scroll;
+//   }
+// }
+
+// .carousel__slide {
+//   position: relative;
+//   display: block;
+//   flex: 1 0 100%;
+//   width: 100%;
+//   height: width;
+//   overflow: hidden;
+//   transition: all 200ms ease-out;
+//   box-sizing: border-box;
+//   white-space: normal;
+
+
+//   figure {
+//       display: flex;
+//       margin: 0;
+
+//       @media only screen and (max-width: 7479px) {
+//           justify-content: center;
+//       }
+//   }
+
+//   div {
+//       width: 100%;
+//       @include aspect-ratio(4, 4);
+//       overflow: hidden;
+
+//       @media only screen and (max-width: 7479px) {
+//           width: 100%;
+//       }
+//   }
+
+//   img {
+//       display: block;
+//       flex: 1 1 auto;
+//       object-fit: cover;
+//   }
+
+//   .credit {
+//       margin-top: 1rem;
+//       color: rgba(0, 0, 0, 0.5);
+//       display: block;
+//   }
+
+//   &.scrollable {
+//       overflow-y: scroll;
+//   }
+// }
