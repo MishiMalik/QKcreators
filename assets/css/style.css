@@ -348,6 +348,32 @@ body {
       font-size: 16px;
       white-space: nowrap; } }
 
+.fill-btn-black {
+  padding: 14px 30px;
+  background-color: #221D42;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white !important;
+  text-decoration: none;
+  border: 2px solid #221D42;
+  box-shadow: none;
+  transition: all 0.5s;
+  cursor: pointer; }
+  .fill-btn-black:hover {
+    box-shadow: 0px 9px 14px #221D42;
+    color: white !important; }
+  @media only screen and (min-width: 1800px) {
+    .fill-btn-black {
+      font-size: 18px;
+      padding: 16px 35px; } }
+  @media only screen and (max-width: 500px) {
+    .fill-btn-black {
+      padding: 10px 20px;
+      font-size: 16px;
+      white-space: nowrap; } }
+
 .blank-btn {
   padding: 12px 30px;
   background-color: transparent;
@@ -1818,3 +1844,53 @@ body {
 @media only screen and (max-width: 767px) {
   .button-group button {
     margin-bottom: 10px; } }
+
+.home-portfolio {
+  background-color: #f8f8f8;
+  padding: 80px 0px; }
+  @media only screen and (min-width: 1700px) {
+    .home-portfolio {
+      padding: 100px 0px; } }
+  @media only screen and (max-width: 768px) {
+    .home-portfolio {
+      padding: 60px 10px; } }
+  @media only screen and (max-width: 570px) {
+    .home-portfolio {
+      padding: 60px 10px; } }
+  .home-portfolio--card {
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029; }
+    .home-portfolio--card-img {
+      overflow: hidden;
+      padding: 0; }
+      .home-portfolio--card-img img {
+        object-fit: cover;
+        width: 100%; }
+    .home-portfolio--card-text {
+      background-color: white;
+      padding: 50px 50px 65px 50px;
+      height: 100%; }
+      .home-portfolio--card-text h2 {
+        font-size: 30px;
+        color: #221D42;
+        font-weight: 500; }
+      .home-portfolio--card-text .labels {
+        display: flex;
+        align-items: center; }
+      .home-portfolio--card-text .project-label {
+        height: 31px;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #707070;
+        border-radius: 15px;
+        margin: 10px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        color: #707070; }
+      .home-portfolio--card-text p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #000000;
+        margin: 20px 0px !important; }

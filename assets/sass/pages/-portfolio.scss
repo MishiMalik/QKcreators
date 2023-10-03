@@ -70,44 +70,41 @@
 .grid-sizer,
 .grid-item {
   width: 50%;
-  padding:0px 40px;
+  padding: 0px 40px;
   margin-bottom: 40px;
   @media only screen and (max-width: 1200px) {
-    padding:0px 10px;
+    padding: 0px 10px;
   }
 
-@media only screen and (max-width: 767px) {
-  width: 100%;
-}
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .filter-btns {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 8px 10px;
-    transition: 0.3s;
-    font-size: 18px;
-    font-weight: 500;
-    color: $primary;
-    border: 1px solid transparent;
-    margin-right: 15px;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 10px;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+  color: $primary;
+  border: 1px solid transparent;
+  margin-right: 15px;
 }
 
 .filter-btns:hover {
-    background-color: $primary;
-    color: white;
-    border: 1px solid $primary;
+  background-color: $primary;
+  color: white;
+  border: 1px solid $primary;
 }
 
 .active-category {
-    border: 1px solid $primary;
+  border: 1px solid $primary;
 }
-
-
-
 
 .grid-item {
   float: left;
@@ -203,15 +200,78 @@
   width: 20px;
   color: white;
 }
-.button-group{
-  @media only screen and (max-width:767px){
+.button-group {
+  @media only screen and (max-width: 767px) {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  button{
-    @media only screen and (max-width:767px){
+  button {
+    @media only screen and (max-width: 767px) {
       margin-bottom: 10px;
+    }
+  }
+}
+
+// ===========================================================home portfolio
+.home-portfolio {
+  background-color: #f8f8f8;
+  padding: 80px 0px;
+  @media only screen and (min-width: 1700px) {
+    padding: 100px 0px;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 60px 10px;
+  }
+  @media only screen and (max-width: 570px) {
+    padding: 60px 10px;
+  }
+  &--card {
+    background-color: white;
+    // display: flex;
+    // align-items: flex-start;
+    box-shadow: 0px 3px 6px #00000029;
+
+    &-img {
+      overflow: hidden;
+      padding: 0;
+      img {
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+    &-text {
+      background-color: white;
+      padding: 50px 50px 65px 50px;
+      height: 100%;
+      h2 {
+        font-size: 30px;
+        color: #221D42;
+        font-weight: 500;
+      }
+      .labels {
+        display: flex;
+        align-items: center;
+      }
+      .project-label {
+        height: 31px;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #707070;
+        border-radius: 15px;
+        margin: 10px 5px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        font-weight: 500;
+        color: #707070;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #000000;
+        margin: 20px 0px !important;
+      }
     }
   }
 }

@@ -68,6 +68,34 @@
   }
 }
 
+// ================================================Fill button black
+.fill-btn-black {
+  padding: 14px 30px;
+  background-color: #221D42;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white !important;
+  text-decoration: none;
+  border: 2px solid #221D42;
+  box-shadow: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 9px 14px #221D42;
+    color: white !important;
+  }
+  @media only screen and (min-width: 1800px) {
+    font-size: 18px;
+    padding: 16px 35px;
+  }
+  @media only screen and (max-width: 500px) {
+    padding: 10px 20px;
+    font-size: 16px;
+    white-space:nowrap;
+  }
+}
 // =====================================================blank button
 .blank-btn {
   padding: 12px 30px;
