@@ -615,13 +615,13 @@
       padding: 20px 10px 20px 10px;
       h1 {
         font-size: 24px;
-        font-weight: 600;
-        color: #161515;
+        font-weight: 500;
+        color: $primary;
         @media only screen and (max-width: 991px) {
           font-size: 20px;
         }
         @media only screen and (max-width: 767px) {
-          font-size: 18px;
+          font-size: 16px;
         }
       }
       p {
@@ -635,6 +635,7 @@
         // text-overflow: ellipsis;
         @media only screen and (max-width: 991px) {
           font-size: 14px;
+          text-align: left;
         }
       }
     }
@@ -643,6 +644,7 @@
 .portfolio__card {
   position: relative;
   overflow: hidden;
+  padding: 0px ;
 }
 
 .overlay-bg,

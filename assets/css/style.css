@@ -1145,25 +1145,27 @@ body {
     padding: 20px 10px 20px 10px; }
     .portfolio__card-text h1 {
       font-size: 24px;
-      font-weight: 600;
-      color: #161515; }
+      font-weight: 500;
+      color: #FF3381; }
       @media only screen and (max-width: 991px) {
         .portfolio__card-text h1 {
           font-size: 20px; } }
       @media only screen and (max-width: 767px) {
         .portfolio__card-text h1 {
-          font-size: 18px; } }
+          font-size: 16px; } }
     .portfolio__card-text p {
       font-size: 16px;
       font-weight: 400;
       text-align: justify; }
       @media only screen and (max-width: 991px) {
         .portfolio__card-text p {
-          font-size: 14px; } }
+          font-size: 14px;
+          text-align: left; } }
 
 .portfolio__card {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  padding: 0px; }
 
 .overlay-bg,
 .overlay-bg::before,
@@ -1673,10 +1675,12 @@ body {
       padding: 100px 0px; } }
   @media only screen and (max-width: 768px) {
     .tab-area {
-      padding: 60px 10px; } }
+      padding: 10px 10px; } }
 
 .portfolio__card-img {
-  background-color: white; }
+  background-color: white;
+  padding: 5px !important;
+  border-radius: 3px; }
 
 /* clear fix */
 .grid:after {
@@ -1690,10 +1694,14 @@ body {
   width: 50%;
   padding: 0px 40px;
   margin-bottom: 40px; }
+  @media only screen and (max-width: 1200px) {
+    .grid-sizer,
+    .grid-item {
+      padding: 0px 10px; } }
   @media only screen and (max-width: 767px) {
     .grid-sizer,
     .grid-item {
-      width: 50%; } }
+      width: 100%; } }
 
 .filter-btns {
   background-color: inherit;
@@ -1723,7 +1731,7 @@ body {
 
 .grid-item img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
   cursor: pointer; }
 
@@ -1795,3 +1803,13 @@ body {
   height: 20px;
   width: 20px;
   color: white; }
+
+@media only screen and (max-width: 767px) {
+  .button-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; } }
+
+@media only screen and (max-width: 767px) {
+  .button-group button {
+    margin-bottom: 10px; } }
