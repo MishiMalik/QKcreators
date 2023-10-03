@@ -1680,7 +1680,11 @@ body {
 .portfolio__card-img {
   background-color: white;
   padding: 5px !important;
-  border-radius: 3px; }
+  border-radius: 3px;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /* clear fix */
 .grid:after {
