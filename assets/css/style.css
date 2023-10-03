@@ -1870,10 +1870,25 @@ body {
       background-color: white;
       padding: 50px 50px 65px 50px;
       height: 100%; }
+      @media only screen and (max-width: 1300px) {
+        .home-portfolio--card-text {
+          padding: 10px 30px; } }
+      @media only screen and (max-width: 1200px) {
+        .home-portfolio--card-text {
+          padding: 10px 20px; } }
+      @media only screen and (max-width: 991px) {
+        .home-portfolio--card-text {
+          padding: 20px 30px 40px 30px; } }
+      @media only screen and (max-width: 580px) {
+        .home-portfolio--card-text {
+          padding: 15px 15px 20px 15px; } }
       .home-portfolio--card-text h2 {
         font-size: 30px;
         color: #221D42;
         font-weight: 500; }
+        @media only screen and (max-width: 580px) {
+          .home-portfolio--card-text h2 {
+            font-size: 22px; } }
       .home-portfolio--card-text .labels {
         display: flex;
         align-items: center; }
@@ -1894,3 +1909,6 @@ body {
         font-weight: 400;
         color: #000000;
         margin: 20px 0px !important; }
+        @media only screen and (max-width: 1200px) {
+          .home-portfolio--card-text p {
+            font-size: 14px; } }
