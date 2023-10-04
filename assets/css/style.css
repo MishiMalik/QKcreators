@@ -1869,7 +1869,42 @@ body {
     .home-portfolio--card-text {
       background-color: white;
       padding: 50px 50px 65px 50px;
-      height: 100%; }
+      height: 100%;
+      position: relative; }
+      .home-portfolio--card-text .arrow-left {
+        position: absolute;
+        top: 50px;
+        left: -26px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 30px solid white; }
+        @media only screen and (max-width: 991px) {
+          .home-portfolio--card-text .arrow-left {
+            top: -14px;
+            left: 35px;
+            border-top: none;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid white; } }
+      .home-portfolio--card-text .arrow-right {
+        position: absolute;
+        top: 50px;
+        right: -26px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 30px solid white; }
+        @media only screen and (max-width: 991px) {
+          .home-portfolio--card-text .arrow-right {
+            top: -14px;
+            right: 35px;
+            border-top: none;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 15px solid white; } }
       @media only screen and (max-width: 1300px) {
         .home-portfolio--card-text {
           padding: 10px 30px; } }
@@ -1881,7 +1916,7 @@ body {
           padding: 20px 30px 40px 30px; } }
       @media only screen and (max-width: 580px) {
         .home-portfolio--card-text {
-          padding: 15px 15px 20px 15px; } }
+          padding: 20px 15px 30px 15px; } }
       .home-portfolio--card-text h2 {
         font-size: 30px;
         color: #221D42;
@@ -1912,3 +1947,36 @@ body {
         @media only screen and (max-width: 1200px) {
           .home-portfolio--card-text p {
             font-size: 14px; } }
+
+.running-project-card {
+  overflow: hidden;
+  padding: 6px !important;
+  position: relative; }
+  .running-project-card img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100% !important; }
+  .running-project-card .running-content {
+    position: absolute;
+    bottom: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 20px;
+    height: fit-content; }
+    .running-project-card .running-content h1 {
+      font-size: 30px;
+      font-weight: 500;
+      color: white;
+      width: 100%;
+      border-bottom: 1px solid white;
+      padding: 15px 0px; }
+    .running-project-card .running-content p {
+      min-height: 130px;
+      font-size: 14px;
+      font-weight: 400;
+      color: white; }
