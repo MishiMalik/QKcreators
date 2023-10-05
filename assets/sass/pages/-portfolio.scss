@@ -378,7 +378,7 @@
   position: absolute;
   top: 43%;
   left: -20px;
-  z-index: 10;
+  z-index: 3;
   background-color: rgba($primary, 0.5);
   color: white;
   border-radius: 100%;
@@ -397,14 +397,14 @@
     background-color: $primary;
   }
   @media only screen and (max-width:580px){
-    left: 0;
+    left: -7;
   }
 }
 .slick-next{
   position: absolute;
   top: 43%;
   right: -20px;
-  z-index: 10px;
+  z-index: 3;
   background-color: rgba($primary, 0.5);
   color: white;
   border-radius: 100%;
@@ -423,6 +423,6 @@
     background-color: $primary;
   }
   @media only screen and (max-width:580px){
-    right: 0;
+    right: -7;
   }
 }
