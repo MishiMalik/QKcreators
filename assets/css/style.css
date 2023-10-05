@@ -1411,6 +1411,9 @@ body {
   font-weight: 500 !important;
   white-space: nowrap; }
 
+.documentation-main {
+  background: linear-gradient(90deg, #d3cdd1 0%, #f5f6f7 35%); }
+
 .request-header {
   background-color: #FF3381;
   min-height: 500px;
